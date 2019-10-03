@@ -1,0 +1,13 @@
+Ripasso parte 1
+- Installare Visual Studio Code (scaricare dal sito)
+- Installare le estensioni di C++ e Run Code
+- Installare da terminale g++
+	sudo apt-get install g++
+- Ripasso variabili, input e output, if...else
+
+Ripasso parte 2
+- Cicli for, while
+- Array e matrici
+
+Ripasso parte 3
+- Funzioni
