@@ -1,0 +1,76 @@
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="chart.min.js"></script>
+	<script>
+		$(function(){
+			var ctxline = document.getElementById("lineChart").getContext("2d");
+			var dataLine = {
+				type: 'line',
+				data: {
+					labels: ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno'],
+					datasets: [
+						{
+							label: 'test',
+							backgroundColor: 'red',
+							borderColor: 'red',
+							data: [20, 30, 50, 40, 10, 60],
+							fill: false,
+						}
+					]
+				}
+			};
+			var linechart = new Chart(ctxline, dataLine);
+
+
+			var ctxbar = document.getElementById("barChart").getContext("2d");
+			var dataBar = { 
+				type: 'bar',
+				data: {
+					labels: ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno"], 
+					datasets: [ 
+						{ 
+							label: 'test',
+							backgroundColor: 'red',
+							borderColor: 'red',
+							data: [20, 30, 50, 40, 10, 60],
+							fill: false,
+						} 
+					] 
+				}
+			 }; 
+			 var barchart = new Chart(ctxbar, dataBar); 
+
+			var ctxpie = document.getElementById("pieChart").getContext("2d");
+			var dataPie = {
+				type: 'pie',
+				data: {
+					datasets: [
+						{
+							data: [20, 30, 50, 40, 10, 60],
+							backgroundColor: ['red', 'blue', 'yellow', 'green', 'orange', 'pink'],
+							label: "demo"
+						}
+					],
+					labels: ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno"], 
+				}
+			};
+			
+			var pieChart = new Chart(ctxpie, dataPie);
+		});
+	</script>
+</head>
+
+<body>
+<div style="width: 400px; height: 400px">
+	<canvas id="lineChart"></canvas>
+</div>
+<div style="width: 400px; height: 400px">
+	<canvas id="barChart"></canvas>
+</div>
+<div style="width: 400px; height: 400px">
+	<canvas id="pieChart"></canvas>
+</div>
+
+</body>
+</html>

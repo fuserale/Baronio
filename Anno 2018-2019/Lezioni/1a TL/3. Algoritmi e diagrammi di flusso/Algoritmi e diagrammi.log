@@ -1,0 +1,480 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.2)  14 APR 2019 13:52
+entering extended mode
+**"./Algoritmi e diagrammi.tex"
+("Algoritmi e diagrammi.tex"
+LaTeX2e <2018-12-01>
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2018/11/13 3.27 The Babel package
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/babel-italian\italian.ldf
+Language: italian 2019/01/05 v.1.4.01 Italian support for the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@dirlevel=\count89
+)
+\it@lettering=\count90
+\it@doublequoteactive=\count91
+\it@ISOcompliance=\count92
+))
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count93
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count94
+\Gm@cntv=\count95
+\c@Gm@tempcnt=\count96
+\Gm@bindingoffset=\dimen106
+\Gm@wd@mp=\dimen107
+\Gm@odd@mp=\dimen108
+\Gm@even@mp=\dimen109
+\Gm@layoutwidth=\dimen110
+\Gm@layoutheight=\dimen111
+\Gm@layouthoffset=\dimen112
+\Gm@layoutvoffset=\dimen113
+\Gm@dimlist=\toks17
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.sty
+\lst@mode=\count97
+\lst@gtempboxa=\box27
+\lst@token=\toks18
+\lst@length=\count98
+\lst@currlwidth=\dimen114
+\lst@column=\count99
+\lst@pos=\count100
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count101
+\lst@lineno=\count102
+\lst@maxwidth=\dimen117
+
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count103
+\lst@skipnumbers=\count104
+\lst@framebox=\box28
+)
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+)
+\c@caption@flags=\count105
+\c@ContinuedFloat=\count106
+Package caption Info: listings package is loaded.
+)
+\c@KVtest=\count107
+\sf@farskip=\skip43
+\sf@captopadj=\dimen125
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count108
+\c@subfigure@save=\count109
+\c@lofdepth=\count110
+\c@subtable=\count111
+\c@subtable@save=\count112
+\c@lotdepth=\count113
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
+("Algoritmi e diagrammi.aux")
+\openout1 = `"Algoritmi e diagrammi.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \it@ocap on input line 10.
+LaTeX Info: Redefining \it@ccap on input line 10.
+
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting 
+italian.ldf    on input line 10.
+
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count114
+\scratchdimen=\dimen126
+\scratchbox=\box29
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen127
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks20
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=759.6886pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count120
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 14.
+[1
+
+{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+("Algoritmi e diagrammi.toc"
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+)
+\tf@toc=\write3
+\openout3 = `"Algoritmi e diagrammi.toc"'.
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
+ [3]
+<Deterministico.png, id=17, 453.19313pt x 268.00125pt>
+File: Deterministico.png Graphic file (type png)
+<use Deterministico.png>
+Package pdftex.def Info: Deterministico.png  used on input line 88.
+(pdftex.def)             Requested size: 453.19202pt x 268.00058pt.
+ [4 <./Deterministico.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 158.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 158.
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+<Inizio.png, id=30, 150.5625pt x 105.39375pt>
+File: Inizio.png Graphic file (type png)
+<use Inizio.png>
+Package pdftex.def Info: Inizio.png  used on input line 223.
+(pdftex.def)             Requested size: 75.28105pt x 52.69673pt.
+<Input.png, id=31, 150.5625pt x 161.85469pt>
+File: Input.png Graphic file (type png)
+<use Input.png>
+Package pdftex.def Info: Input.png  used on input line 225.
+(pdftex.def)             Requested size: 75.28105pt x 80.92714pt.
+<Azione.png, id=32, 150.5625pt x 161.85469pt>
+File: Azione.png Graphic file (type png)
+<use Azione.png>
+Package pdftex.def Info: Azione.png  used on input line 227.
+(pdftex.def)             Requested size: 75.28105pt x 80.92714pt.
+<Controllo.png, id=33, 188.20313pt x 210.7875pt>
+File: Controllo.png Graphic file (type png)
+<use Controllo.png>
+Package pdftex.def Info: Controllo.png  used on input line 229.
+(pdftex.def)             Requested size: 94.10132pt x 105.3935pt.
+<Fine.png, id=34, 150.5625pt x 105.39375pt>
+File: Fine.png Graphic file (type png)
+<use Fine.png>
+Package pdftex.def Info: Fine.png  used on input line 231.
+(pdftex.def)             Requested size: 75.28105pt x 52.69673pt.
+<Sequenza.png, id=35, 75.28125pt x 133.24782pt>
+File: Sequenza.png Graphic file (type png)
+<use Sequenza.png>
+Package pdftex.def Info: Sequenza.png  used on input line 240.
+(pdftex.def)             Requested size: 75.28105pt x 133.24748pt.
+<Selezione.png, id=36, 356.83313pt x 165.61874pt>
+File: Selezione.png Graphic file (type png)
+<use Selezione.png>
+Package pdftex.def Info: Selezione.png  used on input line 247.
+(pdftex.def)             Requested size: 356.83224pt x 165.61833pt.
+[7 <./Inizio.png> <./Input.png> <./Azione.png> <./Controllo.png> <./Fine.png> <
+./Sequenza.png>]
+<Iterazione.png, id=41, 356.0803pt x 239.39438pt>
+File: Iterazione.png Graphic file (type png)
+<use Iterazione.png>
+Package pdftex.def Info: Iterazione.png  used on input line 253.
+(pdftex.def)             Requested size: 356.07944pt x 239.39378pt.
+ [8 <./Selezione.png> <./Iterazione.png>] [9] [10]
+<Perimetro.png, id=51, 75.28125pt x 199.49532pt>
+File: Perimetro.png Graphic file (type png)
+<use Perimetro.png>
+Package pdftex.def Info: Perimetro.png  used on input line 319.
+(pdftex.def)             Requested size: 75.28105pt x 199.49481pt.
+<Cateto.png, id=52, 161.85469pt x 213.04594pt>
+File: Cateto.png Graphic file (type png)
+<use Cateto.png>
+Package pdftex.def Info: Cateto.png  used on input line 324.
+(pdftex.def)             Requested size: 161.85428pt x 213.04541pt.
+<Massimo4Numeri.png, id=53, 354.57469pt x 299.61937pt>
+File: Massimo4Numeri.png Graphic file (type png)
+<use Massimo4Numeri.png>
+Package pdftex.def Info: Massimo4Numeri.png  used on input line 329.
+(pdftex.def)             Requested size: 354.57382pt x 299.61864pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <./Perimetro.png> <./Cateto.png>] [12 <./Massimo4Numeri.png>]
+("Algoritmi e diagrammi.aux") ) 
+Here is how much of TeX's memory you used:
+ 6266 strings out of 492946
+ 90410 string characters out of 3135531
+ 194948 words of memory out of 3000000
+ 10085 multiletter control sequences out of 15000+200000
+ 7895 words of font info for 28 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,11n,42p,852b,1548s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Algoritmi e diagrammi.pdf" (12 pages, 202853 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

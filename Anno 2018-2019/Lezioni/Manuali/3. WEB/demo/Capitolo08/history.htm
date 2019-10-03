@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTML 5 - History API</title>
+	<link rel="stylesheet" href="../css/style.css" type="text/css" /> 
+    <script>
+        
+        //
+        // vedi: http://www.w3.org/TR/html5/history.html per le specifiche e la documentazione completa di Offline Web Applications
+        //
+
+        window.onload = function ()
+        {
+            if (!checkHistoryApi())
+            {
+                alert("Il tuo browser non supporta History API");
+                return;
+            }
+
+            trackClick(document.getElementById("p1"));
+            trackClick(document.getElementById("p2"));
+            trackClick(document.getElementById("p3"));
+
+            // aggiorno la visualizzazione della pagina quando l'utente naviga usando la cronologia:
+            onpopstate = function (event) { showLink(event.state); }         
+        };
+
+        
+
+        function checkHistoryApi()
+        {
+            return !!(window.history && history.pushState); // !! forza il cast a boolean
+        };
+
+        function trackClick(link)
+        {
+            link.addEventListener("click", function (e)
+            {
+                // a scopo dimostrativo creo un oggetto usando semplicemente le proprietà del link; 
+                // in un'applicazione reale i dati potrebbero essere ottenuti dal server via AJAX
+                var data =
+                {
+                    id: link.id,
+                    url: link.href,
+                    title: link.title,
+                    html: link.innerHTML,
+                    date: (new Date())
+                };
+
+                // aggiungo il link alla cronologia:
+                history.pushState(data, data.title, data.url);
+                showLink(data);
+                // inibisco la navigazione verso l'URL del link:
+                e.preventDefault();
+            }, false);
+        };
+
+        function showLink(data)
+        {
+            document.getElementById("content").innerHTML = (data == null) ? "Seleziona una pagina" :            
+                "ID: " + data.id + "<br />" +
+                "URL: " + data.url + "<br />" +
+                "TITOLO: " + data.title + "<br />" +
+                "HTML: " + data.html + "<br />" +
+                "DATA: " + data.date.toLocaleTimeString();
+        };
+
+    </script>    
+</head>
+<body>
+	<header>
+		<h1>Demo</h1>
+	</header> 
+	<article> 
+		<header><h1>History API</h1></header>
+		<p id="content"></p>
+		<hr />
+		<ul>
+			<li><a href="?pagina=1" id="p1" title="Visualizza la prima pagina">Pagina numero 1</a></li>
+			<li><a href="?pagina=2" id="p2" title="Visualizza la seconda pagina">Pagina numero 2</a></li>
+			<li><a href="?pagina=3" id="p3" title="Visualizza la terza pagina">Pagina numero 3</a></li>
+		</ul>
+	</article>
+ 	<footer><a href="http://www.html5italia.com/">HTML5Italia.com</a> | <a href="http://books.aspitalia.com/HTML5/">HTML5</a></footer>  
+</body>
+</html>

@@ -1,0 +1,25 @@
+; EclipseCrossword word list
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+HTML:  Serve per scrivere il contenuto delle pagine web
+CSS:  Serve ad abbellire la pagina web
+HEAD:  E' la sezione in cui si mettono i tag che non si vedono della pagina web
+LINK:  Il tag <a> serve per..
+ATTRIBUTO:  E' identificato da una coppia nome-valore
+DOCTYPE:  Serve ad indicare la tipologia di documento
+DIV:  Il tag che permette di separare i contenuti
+APERTURA:  Gli attributi del CSS vanno inseriti nel tag di
+BUTTON:  Serve a mandare i dati di un form
+GRASSETTO:  Il tag <b> permette di scrivere il testo in
+COMMENTI:  Servono a spiegare il codice scritto
+TITOLI:  Hanno un ordine di importanza
+SRC:  L'attributo obbligatorio per le immagini
+TITLE:  Può essere inserito sia come tag che come attributo
+SFONDO:  L'attributo <w3-black> colora di nero ...
+TESTO:  L'attributo <w3-text-white> colora di bianco ..
+TABLE:  Permette di creare una tabella
+TR:  Indica la creazione di una riga di tabella
+TD:  Indica la creazione di una colonna di tabella
+UL:  Tag per le liste non ordinate
+OL:  Tag per le liste ordinate

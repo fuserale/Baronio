@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML 5 - AJAX</title>
+	<link rel="stylesheet" href="../css/style.css" type="text/css" /> 
+    <script>
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+
+    </script>
+</head>
+<body>
+	<header>
+		<h1>Service Worker</h1>
+	</header> 
+	<article> 
+		<header><h1>Service worker</h1></header>
+		<div></div>
+	</article>
+ 	<footer><a href="http://www.html5italia.com/">HTML5Italia.com</a> | <a href="http://books.aspitalia.com/HTML5/">HTML5</a></footer>  
+</body>
+</html>

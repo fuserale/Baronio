@@ -1,0 +1,358 @@
+<html>
+<head>
+	<title>HTML5</title>
+	<link rel="stylesheet" href="../css/style.css" type="text/css" /> 
+	<script>
+		function HelloWorld(parameter) {
+		  const currentDate = new Date();
+		  let second = currentDate.getSeconds();
+		  let message;
+		  if (second % 2 === 0) {
+			message = 'Numero pari';
+		  }
+		  else {
+			message = 'Numero dispari';
+		  }
+		  alert(message);
+		}
+
+		function Esempio_7_3(){
+			let firstName = 'Stefano';
+			let lastName = 'Mostarda';
+			let fullNameWithoutBackTick = firstName + ' ' + lastName;
+			let fullNameWithBackTick = `${firstName} ${lastName}`;
+			alert(fullNameWithoutBackTick);
+			alert(fullNameWithBackTick);
+		}
+
+		function Esempio_7_2(){
+			let myValue = "test";
+			myValue = 5;
+			alert(myValue + 10); //mostra 15
+		}
+
+		function Esempio_7_4(){
+			//commentato per non ridichiarare ogni volta le variabili
+			//operatori aritmetici
+			/*let x = 5, y = 2;
+			let z = x + y;              //z = 7
+			let z = x - y;              //z = 3
+			let z = x * y;              //z = 10
+			let z = x / y;            //z = 2.5
+			let z = x % y;            //z = 1
+			x++;                      //x = 6
+			x--;                      //x = 4
+
+			//operatori di assegnazione
+			x += y;                   //equivale a x = x + y; x = 7
+			x -= y;                   //equivale a x = x - y; x = 3
+
+			let s1 = 'hello', s2 = 'world';
+			let s3 = s1 + ' ' + s2;   //s3 = 'hello world';
+			s1 += ' ' + s2;           //s1 = 'hello world';
+			let s3 = s1 + x;          //s3 = 'hello5';
+
+			//operatori di comparazione
+			let sx = '5';
+			let z = x == sx;          //z = true
+			let z = x === sx;         //z = false
+			let z = x ! = sx;         //z = false
+			let z = x !== sx;         //z = true
+
+			let z = x > y;            //z = true
+			let z = x >= y;           //z = true
+			let z = x < y;            //z = false
+			let z = x <= y;           //z = false
+
+			//operatori ternari
+			let z = x == 5 ? 'uguale' : 'diverso' //z = 'diverso'
+
+			//operatori logici
+			let z = x == 5 && y > 0;  //return true
+			let z = x == 5 && y > 10; //return false
+			let z = x == 5 || y > 10; //return true
+			let z = x == 2 || y > 10; //return false
+*/
+		}
+		
+		function Esempio_7_5(){
+			const year = new Date().getFullYear();
+
+			if (year == 2014) {
+				alert("anno 2014");
+			}
+
+			if (year == 2014) {
+				alert("anno 2014");
+			}
+			else{
+				alert("anno diverso da 2014");
+			}
+
+			if (year == 2014) {
+				alert("anno 2014");
+			}
+			else if (year == 2015) {
+				alert("anno 2015");
+			}
+			else{
+				alert("altro anno");
+			}
+		}
+
+		function Esempio_7_6(){
+			let periodo;
+
+			switch (new Date().getDay()) {
+			  case 0:
+			  case 6:
+				periodo = 'Weekend';
+				break;
+			  case 5:
+				periodo = 'Venerdì';
+				break;
+			  default:
+				periodo = 'Altro';
+			}
+		}
+		
+		function Esempio_7_7(){
+			let result = '';
+			for (let i = 0; i < 5; i++) { result += 'numero' + i; }
+			alert(result);
+		}
+		
+		function Esempio_7_8(){
+			let result = '';
+			let numbers = [1, 2, 3, 4, 5];
+			for (const item of numbers) { result += 'numero' + item; }
+			alert(result);
+		}
+		
+		function Esempio_7_9(){
+			let result = '';
+			let i = 0
+			while (i < 5) { 
+				result += 'numero' + i; 
+				i++;
+			}
+			alert(result);
+		}
+		
+		function Esempio_7_10(){
+			let result = '';
+			let i = 0
+			do {
+				result += 'numero' + i;
+				i++;
+			}
+			while (i < 0);
+		}
+		
+		function Esempio_7_11(){
+			const breakCondition = true;
+			let result = '';
+			for (let i = 0; i < 5; i++) {
+				result += 'number' + i;
+				if (breakCondition)
+					break;
+			}
+		}
+		
+		function Esempio_7_12(){
+			let result = '';
+			for (let i = 0; i < 5; i++) {
+				if (i == 3)
+					continue;
+				result += 'number' + i;
+			}
+		}
+		
+		function calculateVAT1(imponibile, percentuale){
+			return imponibile % percentuale / 100;
+		}
+
+		function Esempio_7_13(){
+			let iva = calculateVAT1(100, 22);
+			alert(iva);
+		}
+
+		function calculateVAT2(imponibile, percentuale = 22){
+			return imponibile % percentuale / 100;
+		}
+
+		function Esempio_7_14(){
+			let iva = calculateVAT2(100);
+			alert(iva);
+		}
+
+
+		function Esempio_7_15(){
+			function sum(...numbers){
+			  let result = 0;
+			  for (const item of numbers) {
+				result += item;
+			  }
+			  return result;
+			}
+			
+			const value = sum(1, 10, 20);
+			alert(value)
+		}
+
+		
+		function Esempio_7_16(){
+			function execute(func, ...numbers){
+				let result = 0;
+				for (const item of numbers) {
+					func(item);
+				}
+			}
+
+			const func = (item) => { console.log(item); }
+			execute(func, 1, 10, 20); 
+		}
+
+		function Esempio_7_17(){
+			var list1 = []; 
+			var list2 = [1, 2, 'stringa', new Date()];
+			alert(list1.length);
+			alert(list2[2]);
+		}
+		
+		function Esempio_7_18(){
+			var list = [1, 2, 3, 4];
+			list.push(5); 
+			list.splice(4, 1);
+			list[0] = 10;
+			alert(list);
+		}
+		
+		function Esempio_7_19(){
+			const myArray = [];
+
+			myArray.push('Anchor');
+			myArray.push('Tag');
+			myArray.push('A');
+			const search = myArray.filter((item) => item.startsWith('A'));
+			alert(search.length);
+		}
+
+		function Esempio_7_20(){
+			const myArray = [];
+
+			myArray.push('Anchor');
+			myArray.push('Tag');
+			myArray.push('A');
+			const search = myArray.find((item) => item.startsWith('A'));
+			alert(search);
+		}
+
+		function Esempio_7_21(){
+			let list = [1, 2, 3, 4];
+			let result = 0;
+			for (let i=0; i<list.length; i++){
+				result += list[i];
+			}
+		}
+
+		function Person1(firstName, lastName) {
+			this.firstName = firstName;
+			this.lastName = lastName;
+			this.getFullName = function() {
+				return this.firstName + " " + this.lastName;
+			};
+		}		
+
+		function Esempio_7_23(){
+			var p = new Person1("stefano", "mostarda");
+			alert(p.getFullName());
+			alert(p["firstName"]);
+		}
+
+		class Person2 {
+			constructor (firstName, lastName) {
+				this.firstName = firstName;
+				this.lastName = lastName;
+			}
+
+			set firstName (value) { this._firstName = value; }
+			get firstName () { return this._firstName; } 
+
+			set lastName (value) { this._lastName = value; }
+			get lastName () { return this._lastName; } 
+
+			getFullName() {
+				return this.firstName + ' ' + this.lastName;
+			}
+		}
+		
+		class Employee extends Person2 {
+			constructor (firstName, lastName) {
+				super(firstName, lastName);
+				this.salary = 0;
+			}
+
+			getFullName() {
+				super.getFullName() + ' Salary: ' + this.salary;
+			}
+		}
+		
+		function Esempio_7_26(){
+			let p = new Person2('Stefano', 'Mostarda');
+			alert(p.getFullName());
+
+			p.firstNme = 'Daniele';
+			alert(p.getFullName());
+		}
+
+		function Esempio_7_27(){
+			let p = new Person('Stefano', 'Mostarda');
+			alert(p.firstName);
+			alert(p['firstName']);
+		}
+		
+		function Esempio_7_28(){
+			const obj = { 'firstName': 'Stefano', 'lastName': 'Mostarda' }; 
+			alert(p.firstName);
+			alert(p['firstName']);
+		}
+		</script>
+</head>
+<body>
+	<header>
+		<h1>Demo</h1>
+	</header> 
+
+	<article> 
+		<header><h1>DemoJS</h1></header>
+		<button onclick="HelloWorld()">HelloWorld</button>
+		<button onclick="Esempio_7_2()">Esempio_7_2</button>
+		<button onclick="Esempio_7_3()">Esempio_7_3</button>
+		<button onclick="Esempio_7_4()">Esempio_7_4</button>
+		<button onclick="Esempio_7_5()">Esempio_7_5</button>
+		<button onclick="Esempio_7_6()">Esempio_7_6</button>
+		<button onclick="Esempio_7_7()">Esempio_7_7</button>
+		<button onclick="Esempio_7_8()">Esempio_7_8</button>
+		<button onclick="Esempio_7_9()">Esempio_7_9</button>
+		<button onclick="Esempio_7_10()">Esempio_7_10</button>
+		<button onclick="Esempio_7_11()">Esempio_7_11</button>
+		<button onclick="Esempio_7_12()">Esempio_7_12</button>
+		<button onclick="Esempio_7_13()">Esempio_7_13</button>
+		<button onclick="Esempio_7_14()">Esempio_7_14</button>
+		<button onclick="Esempio_7_15()">Esempio_7_15</button>
+		<button onclick="Esempio_7_16()">Esempio_7_16</button>
+		<button onclick="Esempio_7_17()">Esempio_7_17</button>
+		<button onclick="Esempio_7_18()">Esempio_7_18</button>
+		<button onclick="Esempio_7_19()">Esempio_7_19</button>
+		<button onclick="Esempio_7_20()">Esempio_7_20</button>
+		<button onclick="Esempio_7_21()">Esempio_7_21</button>
+		<button onclick="Esempio_7_23()">Esempio_7_23</button>
+		<button onclick="Esempio_7_26()">Esempio_7_26</button>
+		<button onclick="Esempio_7_27()">Esempio_7_27</button>
+		<button onclick="Esempio_7_28()">Esempio_7_28</button>
+	</article>
+
+	<footer><a href="http://www.html5italia.com/">HTML5Italia.com</a> | <a href="http://books.aspitalia.com/HTML5/">HTML5</a></footer>  
+
+</body></html>

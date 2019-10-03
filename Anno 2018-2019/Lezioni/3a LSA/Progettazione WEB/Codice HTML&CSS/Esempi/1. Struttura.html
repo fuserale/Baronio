@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Capitolo 2 - Nuovi elementi del markup</title>
+    <style>
+        table  {
+            border-collapse:collapse
+        }
+        td, th {
+            border:1px solid #ddd;
+            padding:8px;
+        }
+    </style>        
+</head>
+
+<body>
+    <header>
+        <hgroup>
+            <h1>CAPITOLO 2</h1>
+            <h2>Nuovi elementi del markup</h2>
+        </hgroup>
+    </header>
+    <article>
+        <section>
+            <p>Sebbene le sue specifiche non siano...</p>
+        </section>
+        <section>
+            <h3>Gli elementi supportati da HTML5</h3>
+            <p>HTML5 include più di un centinaio di elementi di
+                markup...</p>
+        </section>
+        <section>
+            <h3>I nuovi elementi di formattazione della pagina</h3>
+            <p>Man mano che le esigenze di pubblicazione dei...</p>
+            <p>
+                L’obiettivo del WWF è di: <q>Costruire 	un futuro nel quale le persone possono 	vivere in armonia con la natura</q>
+            </p>
+            <p>
+                Citazione dal sito del WWF: <blockquote cite="http://www.wordwildlife.org/who/index.html">…..</blockquote>
+            </p>            
+        </section>
+        <section>
+            <ul>
+                <li>Text</li>
+                <ul>
+                    <li>Text1.1</li>
+                    <li>Text1.2</li>
+                    <ul>
+                        <li>Terzo</li>
+                    </ul>
+                </ul>
+                <li>Text2</li>
+                <li>Text3</li>
+            </ul>
+            
+            <ol>
+                <li>Text</li>
+                <ol>
+                    <li>Text1.1</li>
+                    <li>text1.2</li>
+                </ol>
+                <li>Text2</li>
+                <li>Text3</li>
+            </ol>            
+        </section>
+        <aside>
+            <h3>Fonti</h3>
+            <ul>
+                <li>World Wide Web Consortium</li>
+                <li>Web Hypertext Application Technology Working
+                    Group</li>
+            </ul>
+        </aside>
+    </article>
+    <footer>
+        <p>
+            HTML5<br />
+            Fuser Alessandro<br />
+            Copyright Baronio
+        </p>
+    </footer>
+    <section>
+        <table>
+            <tr>
+                <td>Riga 1, Colonna 1</td>
+                <td>Riga 1, Colonna 2</td>
+            </tr>
+            <tr>
+                <td>Riga 2, Colonna 1</td>
+                <td>Riga 2, Colonna 2</td>
+            </tr>        
+        </table>
+        <table>
+            <caption>
+                <p>I miei dati</p>
+            </caption>
+            <thead>
+                <tr><th>Colonna 1</th><th>Colonna 2</th></tr>
+            </thead>
+            <tfoot>
+                <tr><td>Totale 1</td><td>Totale 2</td></tr>
+            </tfoot>
+            <tbody>
+                <tr><td>Dato 1,1</td><td>Dato 1,2</td></tr>
+                <tr><td>Dato 2,1</td><td>Dato 2,2</td></tr>
+                <tr><td>Dato 3,1</td><td>Dato 3,2</td></tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr><th>Campo</th><th>Tabella</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Campo1</td>
+                    <td>
+                        <table>
+                            <thead><tr><th>Campo</th><th>Descrizione</th></tr></thead>
+                            <tbody><tr><td>Campo1</td><td>Descrizione1</td></tr></tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>                
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5: audio e video</title>
+	<link rel="stylesheet" href="../css/style.css" type="text/css" />
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", initVideo, false);
+
+		function initVideo() {
+			var video = document.getElementById('video');
+
+			// Eventi relativi alla proprietà networkState
+			video.addEventListener("loadstart", videoNetworkChanged, false);
+			video.addEventListener("progress", videoNetworkChanged, false);
+			video.addEventListener("suspend", videoNetworkChanged, false);
+			video.addEventListener("emptied", videoNetworkChanged, false);
+			video.addEventListener("stalled", videoNetworkChanged, false);
+
+			// Eventi relativi alla proprietà readyState
+			video.addEventListener("loadedmetadata", videoStateChanged, false);
+			video.addEventListener("loadeddata", videoStateChanged, false);
+			video.addEventListener("waiting", videoStateChanged, false);
+			video.addEventListener("playing", videoStateChanged, false);
+			video.addEventListener("canplay", videoStateChanged, false);
+			video.addEventListener("canplaythrough", videoStateChanged, false);
+
+			// Eventi relativi alla proprietà pause
+			video.addEventListener("play", videoStateChanged, false);
+			video.addEventListener("pause", videoStateChanged, false);
+
+			// Evento di errore
+			video.addEventListener("error", videoError, false);
+
+			video.addEventListener("timeupdate", updateTime, false);
+
+			document.getElementById("play").addEventListener("click", function (e) {
+				e.preventDefault();
+
+				if (video.paused)
+					video.play();
+				else
+					video.pause();
+			}, false);
+		}
+
+		function videoNetworkChanged(e) {
+			// NETWORK_EMPTY
+			// NETWORK_IDLE
+			// NETWORK_LOADING
+			// NETWORK_NO_SOURCE
+			if (e.target.networkState == e.target.NETWORK_LOADING)
+				document.getElementById('time').innerHTML = "Caricamento...";
+		}
+
+		function videoStateChanged(e) {
+			// HAVE_NOTHING
+			// HAVE_METADATA
+			// HAVE_CURRENT_DATA
+			// HAVE_FUTURE_DATA
+			// HAVE_ENOUGH_DATA
+			var msg = '';
+
+			if (e.target.readyState == e.target.HAVE_ENOUGH_DATA)
+				msg = "Pronto";
+
+			if (e.target.paused)
+				msg = "Play";
+			else
+				msg = "Pausa";
+
+			document.getElementById("play").innerHTML = msg;
+		}
+
+		function videoError(e) {
+			// MEDIA_ERR_ABORTED
+			// MEDIA_ERR_NETWORK
+			// MEDIA_ERR_DECODE
+			// MEDIA_ERR_SRC_NOT_SUPPORTED
+			document.getElementById("play").innerHTML = "Errore: " + e.target.error.code;
+		}
+
+		function updateTime(e) {
+			var msg =e.target.currentTime.toFixed(1) + " | " + e.target.duration.toFixed(1) + " s";
+			document.getElementById('time').innerHTML = msg;
+		}
+	</script>
+</head>
+<body>
+	<video src="test.mp4" id="video"></video>
+
+	<div>
+		<a href="#" id="play"></a> <span id="time"></span>
+	</div>
+
+</body>
+</html>

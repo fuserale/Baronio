@@ -1,0 +1,27 @@
+; EclipseCrossword word list
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+INFORMAZIONI:  Si possono aggiungere, eleminare, modificare o leggere
+DATABASE:  Raccolta di dati logicamente correlata
+INTEGRO:  Proprietà di un database che permette la non perdita di consistenza
+SICURO:  Proprietà di un database che evita danneggiamenti
+CONSISTENTE:  Proprietà di un database la qualke indica che i dati sono significativi ed utilizzabili
+SCALABILE:  Proprietà di un database che permette di mantenere le performance all'aumentare dei dati
+OBIETTIVO:  Può essere a breve o a lungo termine
+RISORSA:  Tutto ciò con cui l'azienda opera
+PROCESSO:  Insieme delle attività da svolgere per gestire l'azienda
+INFORMATIVO:  Sistema che si occupa della gestione delle informazioni rilevanti per un'organizzazione
+INFORMATICO:  Sistema che comprende gli strumenti utilizzati per il trattamento automatico delle informazioni
+DATO:  Descrizione elementare di una cosa
+SCHEMA:  Chiave di interpretazione dei dati
+ISTANZA:  Insieme dei valori assunti in uno schema in un certo istante di tempo
+CATEGORIA:  Gruppo di dati aventi la stessa chiave di interpretazione
+CONCETTUALE:  Primo passo di progettazione di una base di dati
+LOGICA:  Secondo passo di progettazione di una base di dati
+FISICA:  Ultimo passo di progettazione di una base di dati
+DBMS:  Insieme di strumenti software in grado di gestire dati strutturati
+VISTA:  Astrazione di una parte di database concettuale
+DML:  Consente di interrogare il database o di modificarne i dati
+DDL:  Descrive le caratteristiche delle categorie di dati
+DCL:  Permette operazioni relative al controllo degli accessi degli utenti

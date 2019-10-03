@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Le form</title>
+</head>
+
+<body>
+	<h1>Le form avanzate</h1>
+	<section>
+		<form>
+			<p>
+				<label>Numero di telefono:<input name="telefono" type="tel"/></label>
+			</p>
+			<p>
+				<label>Email:<input name="email" type="email"/></label>
+			</p>
+			<p>
+				<label>URL:<input name="url" type="url"/></label>
+			</p>
+
+			<p><label>Indica la misura:
+				<input name="size" type="number" min="10" max="60" step="2" value="42" /></label>
+			</p>
+
+			<p><label>Indica la misura:
+				<input name="size" type="range" min="10" max="60" step="2" value="42" /></label>
+			</p>
+
+			<progress value="25" max="100">25%</progress>
+		</form>
+	</section>
+</body>
+</html>

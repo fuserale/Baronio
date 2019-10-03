@@ -1,0 +1,39 @@
+\documentclass[addpoints]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+ 
+\begin{document}
+ 
+ 
+\vspace{5mm}
+ 
+\makebox[\textwidth]{Nome e Cognome:\enspace\hrulefill}
+ 
+\vspace{5mm}
+ 
+\makebox[\textwidth]{Data e Classe:\enspace\hrulefill}
+ 
+\begin{questions}
+\question[3] Crea il diagramma ER a partire dalla seguente descrizione:\\ "Si vuole progettare un database sulle schede degli esercizi proposte dagli istruttori in una palestra. Per ogni esercizio, si salva il corrispettivo codice, il nome e una breve descrizione. Degli istruttori si vogliono sapere il codice del tesserino, il nome ed il cognome. Della scheda si conosce invece il codice di numerazione e la difficoltà. Una scheda è composta da più esercizi e viene preparata da un solo istruttore"
+
+\question[2] A partire dal diagramma ER che hai appena creato, fornisci il corrispettivo schema relazionale
+
+\question Esegui le seguenti operazioni SQL sullo schema relazionale che hai fornito:
+\begin{parts}
+	\part[1] Crea le tabelle dello schema relazionale;
+	\part[1] Inserisce nella tabella ISTRUTTORE i valori "T001", "Mario", "Rossi" e nella tabella ESERCIZIO i valori "E005", "Squat", "Piegarsi con le ginocchia"
+	\part[1] Visualizza tutte le schede con difficoltà "Difficile"
+	\part[1] Visualizza il nome degli istruttori che hanno proposto l'esercizio con codice "E041"
+	\part[1] Visualizza le difficoltà delle schede che contengono gli esercizi con nome "addominali"
+\end{parts}
+
+
+
+ 
+\end{questions}
+
+\begin{center}
+	\gradetable[h][questions]
+\end{center}
+
+\end{document}

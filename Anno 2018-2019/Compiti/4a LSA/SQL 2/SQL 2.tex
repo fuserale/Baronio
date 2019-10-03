@@ -1,0 +1,39 @@
+\documentclass[addpoints]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+ 
+\begin{document}
+ 
+ 
+\vspace{5mm}
+ 
+\makebox[\textwidth]{Nome e Cognome:\enspace\hrulefill}
+ 
+\vspace{5mm}
+ 
+\makebox[\textwidth]{Data e Classe:\enspace\hrulefill}
+ 
+\begin{questions}
+\question[3] Crea il diagramma ER a partire dalla seguente descrizione:\\ "Si vuole progettare un database sulle polizze assicurative. Un cliente può stipulare una o più polizze ed ogni polizza può assicurare uno o più beni. Di un cliente di conoscono il codice fiscale, il cognome ed il nome. La polizza viene registrata con un ID, un nome e la data di creazione della stessa. Il bene assicurato possiede un ID, un nome e la descrizione, oltre che un valore."
+
+\question[2] A partire dal diagramma ER che hai appena creato, fornisci il corrispettivo schema relazionale
+
+\question Esegui le seguenti operazioni SQL sullo schema relazionale che hai fornito:
+\begin{parts}
+	\part[1] Crea le tabelle dello schema relazionale;
+	\part[1] Inserisce nella tabella CLIENTE i valori "C005", "Rossi", "Mario" e nella tabella BENE i valori "B548", "Casa", "Bene immobile"
+	\part[1] Visualizza tutte le polizze create il giorno 24/12/2018
+	\part[1] Visualizza il nome di tutte le polizze create da Luca Faggiano
+	\part[1] Visualizza il valore di tutti i beni creati dai signori Ferrari
+\end{parts}
+
+
+
+ 
+\end{questions}
+
+\begin{center}
+	\gradetable[h][questions]
+\end{center}
+
+\end{document}

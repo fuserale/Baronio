@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5: audio e video</title>
+    <script type="text/ecmascript">
+
+        // Dimensione del box
+        cSize = 30;
+
+        function setupVideo() {
+            canvas = document.getElementById("canvas");
+            context = canvas.getContext("2d");
+
+            lastMouse = null;
+            // Intercetto il movimento del mouse
+            canvas.addEventListener("mousemove", function (e) { lastMouse = e; });
+            canvas.addEventListener("mouseout", function (e) { lastMouse = null; });
+
+            video = document.getElementById("video");
+            video.addEventListener("loadedmetadata", function (e) {
+                // Ridimensiono il canvas in base alla dimensione del video
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+            });
+
+            // Avvio il video
+            video.src = "test.mp4";
+
+            setInterval(draw, 1000 / 30);
+        }
+
+        function draw() {
+            // Disegno il frame corrente
+            context.drawImage(video, 0, 0, video.videoWidth, video.videoHeight);
+
+            if (video.videoWidth > 0) {
+                // Ottengo i pixel del canvas
+                var imageData = context.getImageData(0, 0, video.videoWidth, video.videoHeight);
+                var pixels = imageData.data;
+
+                var grayValue = 0.4;
+                for (var x = 0; x < pixels.length; x += 4) {
+                    // Calcolo la posizione del pixel corrente
+                    var py = Math.floor(x / (video.videoWidth * 4));
+                    var px = (x % (video.videoWidth * 4)) / 4;
+
+                    // Se il pixel è nell'area intorno al mouse
+                    if (!lastMouse || px < lastMouse.pageX - cSize || px > lastMouse.pageX + cSize
+                        || py < lastMouse.pageY - cSize || py > lastMouse.pageY + cSize) {
+                        var c = (pixels[x] + pixels[x + 1] + pixels[x + 2]) / 3 * grayValue;
+                        // RGBA
+                        pixels[x] = c;
+                        pixels[x + 1] = c;
+                        pixels[x + 2] = c;
+                    }
+                }
+
+                // Associo i nuovi pixel da mostrare
+                context.putImageData(imageData, 0, 0);
+            }
+        }
+    </script>
+</head>
+<body onload="setupVideo()">
+    <video id="video" style="display: none" autoplay loop>
+    </video>
+    <canvas id="canvas">
+    </canvas>
+</body>
+</html>

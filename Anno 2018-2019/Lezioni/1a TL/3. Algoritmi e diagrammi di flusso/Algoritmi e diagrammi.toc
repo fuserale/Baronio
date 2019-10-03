@@ -1,0 +1,18 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Teoria}{3}% 
+\contentsline {subsection}{\numberline {1.1}Gli algoritmi}{3}% 
+\contentsline {subsubsection}{\numberline {1.1.1}Propriet\IeC {\`a} degli algoritmi}{3}% 
+\contentsline {subsubsection}{\numberline {1.1.2}Esempi di algoritmo}{4}% 
+\contentsline {subsubsection}{\numberline {1.1.3}Sequenza}{5}% 
+\contentsline {subsubsection}{\numberline {1.1.4}Selezione}{5}% 
+\contentsline {subsubsection}{\numberline {1.1.5}Iterazione}{6}% 
+\contentsline {subsection}{\numberline {1.2}Diagrammi di flusso}{7}% 
+\contentsline {subsubsection}{\numberline {1.2.1}Sequenza}{7}% 
+\contentsline {subsubsection}{\numberline {1.2.2}Selezione}{8}% 
+\contentsline {subsubsection}{\numberline {1.2.3}Iterazione}{8}% 
+\contentsline {section}{\numberline {2}Esercizi}{9}% 
+\contentsline {subsection}{\numberline {2.1}Struttura di selezione}{9}% 
+\contentsline {subsection}{\numberline {2.2}Struttura di iterazione}{9}% 
+\contentsline {subsection}{\numberline {2.3}Riassuntivi}{9}% 
+\contentsline {section}{\numberline {3}Esempi}{11}% 

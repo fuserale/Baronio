@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Calciatori</title>
+    </head>
+
+    <body>
+        <h1>Form per i dati di un calciatore:</h1>
+        <form>
+            Nome:<input type="text" name="Nome" value="">
+            <br>
+            Cognome:<input type="text" name="Cognome" value="">
+            <br>
+            Età:<input type="number" name="Età" min="10" max="50">
+            <br>
+            Altezza:<input type="number" name="Altezza" min="150" max="250">
+            <br>
+            Nazionalità:
+            <select name="Nazionalità">
+                <option value="Italia">Italia</option>
+                <option value="Germania">Germania</option>
+                <option value="Inghilterra">Inghilterra</option>
+                <option value="Francia">Francia</option>
+                <option value="Spagna">Spagna</option>
+            </select>
+            <br>
+            Piede Preferito:
+            <select name="Piede">
+                <option value="Sinistro">Sinistro</option>
+                <option value="Destro">Destro</option>
+                <option value="Ambidestro">Ambidestro</option>
+            </select>
+            <br>
+            Squadra:
+            <select name="Squadra">
+                <option value="Juventus">Juventus</option>
+                <option value="Milan">Milan</option>
+                <option value="Inter">Inter</option>
+                <option value="Roma">Roma</option>
+                <option value="Napoli">Napoli</option>
+                <option value="Lazio">Lazio</option>
+                <option value="Atalanta">Atalanta</option>
+            </select>
+            <br>
+            Ruolo:
+            <select name="Ruolo">
+                <option value="Portiere">Portiere</option>
+                <option value="Difensore">Difensore</option>
+                <option value="Centrocampista">Centrocampista</option>
+                <option value="Attaccante">Attaccante</option>
+            </select>
+            <br>
+            Presenze:<input type="number" name="Presenze" min="0">
+            <br>
+            Gol:<input type="number" name="Gol" min="0">
+            <br>
+            Stipendio:<input type="number" name="Stipendio" min="0">
+            <br>
+            Valore di mercato:<input type="number" name="Valore" min="0" max="100000000">
+        </form>
+    </body>
+</html>

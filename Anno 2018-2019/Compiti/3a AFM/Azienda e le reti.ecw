@@ -1,0 +1,45 @@
+; EclipseCrossword (1.2.62) crossword puzzle
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+Title:  Azienda e le reti
+Width:  50
+Height:  50
+CodePage:  0
+Author:  Alessandro Fuser
+Copyright:  © 2019
+
+; ------------------------------------------------------------
+* Across words
+; ------------------------------------------------------------
+
+SNIFFING:  22, 27:  Strumento che permette di ascoltare le comunicazioni tra due terminali
+SERVER:  27, 24:  Offrono servizi e risorse
+TELEMATICA:  21, 16:  Si occupa dell'elaborazione a distanza delle informazioni
+MAGLIA:  28, 29:  Tipologia di rete che può variare da una realizzazione all'altra
+BUS:  19, 15:  Tipologia di rete con un unico cavo di comunicazione
+INTEGRITA:  22, 9:  Protezione da modifiche non autorizzate
+BUSINESSTOCONSUMER:  20, 13:  Tipologia di ecommerce tra azienda e privato
+DTE:  32, 40:  Insieme di terminale e riorse collegate in rete
+LAN:  26, 5:  Rete abbastanza piccola
+CLIENT:  32, 27:  Richiedono un servizio e utilizzano le risorse
+BACKUP:  18, 23:  Strumento di sicurezza che permette di salvare i propri dati
+RISERVATEZZA:  10, 20:  Protezione da letture non autorizzate
+FIREWALL:  8, 22:  Strumento di sicurezza che equivale ad un muro informatico
+
+; ------------------------------------------------------------
+* Down words
+; ------------------------------------------------------------
+
+NETECONOMY:  28, 21:  Economia basata sull'utilizzo di Internet
+CLOUDCOMPUTING:  23, 15:  Insieme di hardware e software distribuiti sulla rete a disposizione del cliente
+SPOOFING:  25, 23:  Strumento che permette di falsificare l'identità di un terminale
+STELLA:  21, 15:  Tipologia di rete con un nodo al centro
+EGOVERNMENT:  25, 9:  Servizi prestati dalle pubblice amministrazione ai cittadini attraverso Internet
+LEARNINGOBJECT:  33, 27:  Elemento modulare composto da testo, grafica, esercizi e valutazione nell'elearning
+MALWARE:  27, 4:  Strumento che permette di inserire dei codici malevoli in un terminale
+WAN:  32, 11:  Rete molto grande
+ANELLO:  36, 11:  Tipologia di rete in cui ho un collegamento unidirezionale e passaggio di token
+BUSINESSTOBUSINESS:  11, 17:  Tipologia di ecommerce tra aziende
+DCE:  18, 18:  Punto di collegamento tra linea di trasmissione e terminale
+

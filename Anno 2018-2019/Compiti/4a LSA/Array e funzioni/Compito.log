@@ -1,0 +1,209 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.2)  5 APR 2019 13:26
+entering extended mode
+**./Compito.tex
+(Compito.tex
+LaTeX2e <2018-12-01>
+(C:\Users\User\AppData\Roaming\MiKTeX\2.9\tex/latex/exam\exam.cls
+Document Class: exam 2017/12/17 Version 2.603 by Philip Hirschhorn
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\@extrawidth=\skip43
+\@rightmargin=\skip44
+\@extrahead=\skip45
+\@extrafoot=\skip46
+\run@exhd=\skip47
+\fp@exhd=\skip48
+\run@exft=\skip49
+\fp@exft=\skip50
+\covrun@exhd=\skip51
+\covfp@exhd=\skip52
+\covrun@exft=\skip53
+\covfp@exft=\skip54
+\c@num@coverpages=\count88
+\c@latest@ques=\count89
+\c@ques@end=\count90
+\c@last@object=\count91
+\c@incmp@ques=\count92
+\c@next@ques=\count93
+\c@next@page=\count94
+\c@tmp@hlfcntr=\count95
+\c@ifpos@cntr=\count96
+\c@question=\count97
+\c@partno=\count98
+\c@subpart=\count99
+\c@subsubpart=\count100
+\c@choice=\count101
+\c@numpoints=\count102
+\c@numbonuspoints=\count103
+\c@pointsof@thisquestion=\count104
+\c@bonuspointsof@thisquestion=\count105
+\c@numquestions=\count106
+\c@numparts=\count107
+\c@numsubparts=\count108
+\c@numsubsubparts=\count109
+\c@Curr@Page=\count110
+\c@@pagepoints=\count111
+\c@@pagebonuspoints=\count112
+\c@pageof@pagepoints=\count113
+\c@pageof@pagebonuspoints=\count114
+\c@latest@points=\count115
+\c@latest@bonuspoints=\count116
+\pageinfo@commands=\toks14
+\temp@toks=\toks15
+\pagepoint@commands=\toks16
+\point@toks=\toks17
+\c@ques@object=\count117
+\marginpointssep=\skip55
+\rightpointsmargin=\skip56
+\choice@toks=\toks18
+\answerlinelength=\skip57
+\answerskip=\skip58
+\answerclearance=\skip59
+\fillinlinelength=\skip60
+\linefillheight=\skip61
+\linefillthickness=\skip62
+\dottedlinefillheight=\skip63
+\gridsize=\skip64
+\gridlinewidth=\skip65
+\minboxheight=\skip66
+\c@@iterator=\count118
+\@cellwidth=\skip67
+\c@tbl@points=\count119
+\c@tbl@bonuspoints=\count120
+\c@pq@index=\count121
+\c@pq@index@pts=\count122
+\c@pq@index@bpts=\count123
+\c@num@cols=\count124
+\c@num@rows=\count125
+\c@current@row=\count126
+\c@cols@done=\count127
+\exam@box=\box27
+\saved@totalleftmargin=\dimen103
+\@sollistdepth=\count128
+\exam@FrameRule=\dimen104
+\exam@FrameSep=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\multicol.sty"
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count129
+\mult@box=\box28
+\multicol@leftmargin=\dimen106
+\c@unbalance=\count130
+\c@collectmore=\count131
+\doublecol@number=\count132
+\multicoltolerance=\count133
+\multicolpretolerance=\count134
+\full@width=\dimen107
+\page@free=\dimen108
+\premulticols=\dimen109
+\postmulticols=\dimen110
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen111
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count135
+\c@finalcolumnbadness=\count136
+\last@try=\dimen112
+\multicolovershoot=\dimen113
+\multicolundershoot=\dimen114
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count137
+) (Compito.aux)
+\openout1 = `Compito.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 14--15
+[][] 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 18--19
+[][] 
+ []
+
+[1
+
+{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+This exam contains 11 questions with 0 parts, 0 subparts, and 0 subsubparts.
+This exam has a total of 20 points.
+This exam has a total of 0 bonus points.
+(Compito.aux) ) 
+Here is how much of TeX's memory you used:
+ 1480 strings out of 492946
+ 20647 string characters out of 3135531
+ 101728 words of memory out of 3000000
+ 5446 multiletter control sequences out of 15000+200000
+ 4246 words of font info for 16 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,9n,19p,202b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Compito.pdf (1 page, 40177 bytes).
+PDF statistics:
+ 18 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

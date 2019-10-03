@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pagina di esempio</title>
+  <link rel="stylesheet" href="../css/style.css" type="text/css" /> 
+  <script type="text/javascript">
+    window.onload = function () {
+      var canvas = document.getElementById('html5_canvas');
+      var context = canvas.getContext('2d');
+      context.fillStyle = 'black';
+      context.fillRect(0, 0, 200, 100);
+      context.textBaseline = 'top';
+      context.font = 'bold 16pt Tahoma';
+      context.fillStyle = 'orange';
+      context.fillText('HTML5', 15, 35);
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>HTML5</h1>
+  </header>
+  <article>
+    <header>
+      <h1>Pagina di esempio</h1>
+    </header>
+    <section>
+      <h3>Il nuovo elemento &lt;canvas&gt;</h3>
+      <canvas id="html5_canvas" width="200" height="100">
+        ATTENZIONE: l'elemento &lt;canvas&gt; non è supportato.
+      </canvas>
+    </section>
+    <section>
+      <h3>Il nuovo elemento &lt;video&gt;</h3>
+      <video id="html5_video" src="video.ogg" controls>
+        ATTENZIONE: l'elemento &lt;video&gt; non è supportato.
+      </video>
+    </section>
+  </article>
+  <footer>
+    <a href="http://books.aspitalia.com/HTML5/">HTML5</a>
+  </footer>
+</body>
+
+</html>

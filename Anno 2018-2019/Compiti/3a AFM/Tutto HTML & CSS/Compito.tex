@@ -1,0 +1,208 @@
+\documentclass[addpoints]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage[a4paper,top=15mm, bottom=15mm, left=15mm, right=15mm]{geometry}
+ 
+\begin{document}
+ 
+\begin{center}
+	\fbox{\fbox{\parbox{5.5in}{\centering Istituti Card. C. Baronio - Vicenza \\ Anno scolastico 2018/2019 \\ Compito di Informatica \\ HTML \& CSS}}}
+\end{center} 
+ 
+\vspace{5mm}
+ 
+\makebox[\textwidth]{Nome e Cognome:\enspace\hrulefill Data e Classe:\enspace\hrulefill}
+ 
+\vspace{5mm}
+ 
+\begin{questions}
+\begin{multicols}{2}
+
+\question[\half] HTML è un linguaggio di
+\begin{checkboxes}
+	\choice Programmazione
+	\choice Descrizione
+	\choice Sperimentazione
+	\choice SubProgrammazione
+\end{checkboxes}
+
+\question[\half] Il CSS serve a 
+\begin{checkboxes}
+	\choice Inserire contenuti
+	\choice Inserire immagini
+	\choice Abbellire la pagina
+	\choice Controllare la pagina
+\end{checkboxes}
+
+\question[\half] Il tag per il link è 
+\begin{checkboxes}
+	\choice a
+	\choice p
+	\choice br
+	\choice hr
+\end{checkboxes}
+
+\question[\half] Un attributo è identificato da
+\begin{checkboxes}
+	\choice Coppia valore-nome
+	\choice Coppia chiave-chiave
+	\choice Coppia tag-valore
+	\choice Coppia nome-valore
+\end{checkboxes}
+
+\question[\half] La struttura di una pagina WEB:
+\begin{checkboxes}
+	\choice head, doctype, body
+	\choice head, body, doctype
+	\choice body, doctype, head
+	\choice doctype, head, body
+\end{checkboxes}
+
+\question[\half] Il tag DIV:
+\begin{checkboxes}
+	\choice E' un contenitore
+	\choice Separa contenuti
+	\choice Serve per i titoli
+	\choice Colora il testo
+\end{checkboxes}
+
+\question[\half] Gli attributi del CSS vanno inseriti
+\begin{checkboxes}
+	\choice Nel tag di apertura
+	\choice Nel tag di chiusura
+	\choice In entrambi i tag
+	\choice All'inizio del documento
+\end{checkboxes}
+
+\question[\half] Invio dati in un form:
+\begin{checkboxes}
+	\choice text
+	\choice textarea
+	\choice button
+	\choice url
+\end{checkboxes}
+
+\question[\half] A cosa serve l'HTML?:
+\begin{checkboxes}
+	\choice Creare slide di presentazione
+	\choice Creare applet
+	\choice Creare pagine web
+	\choice Creare documenti
+\end{checkboxes}
+
+\question[\half] Per avere il testo in grassetto uso:
+\begin{checkboxes}
+	\choice b
+	\choice grasset
+	\choice underline
+	\choice italic
+\end{checkboxes}
+
+\question[\half] A cosa servono i commenti?
+\begin{checkboxes}
+	\choice Migliorare la leggibilità
+	\choice Sottilineare il codice
+	\choice Spiegare il codice
+	\choice Inserire contenuto
+\end{checkboxes}
+
+\question[\half] L'ordine di importanza per i titoli è:
+\begin{checkboxes}
+	\choice h2,h3,h1
+	\choice h1.h2,h3
+	\choice h3,h2,h1
+	\choice non c'è ordine
+\end{checkboxes}
+
+\question[\half] L'attributo obbligatorio per il tag image:
+\begin{checkboxes}
+	\choice src
+	\choice img
+	\choice alt
+	\choice dimension
+\end{checkboxes}
+
+\question[\half] L'attributo title:
+\begin{checkboxes}
+	\choice Inserito nell'head
+	\choice Inserito in ogni tag
+	\choice Inserito nel body
+	\choice Non esiste
+\end{checkboxes}
+
+\question[\half] L'attributo class="w3-black":
+\begin{checkboxes}
+	\choice Colora il testo di nero
+	\choice Toglie lo sfondo
+	\choice Colora lo sfondo di nero
+	\choice Rende tutti gli elementi neri
+\end{checkboxes}
+
+\question[\half] L'attributo class="w3-text-white":
+\begin{checkboxes}
+	\choice Colora il testo di bianco
+	\choice Toglie lo sfondo
+	\choice Colora lo sfondo di bianco
+	\choice Rende tutti gli elementi bianchi
+\end{checkboxes}
+
+\question[\half] Per creare una tabella con una righe e due colonne
+\begin{checkboxes}
+	\choice $<tr><td></td><td></td></tr>$
+	\choice $<td><tr></tr><tr></tr></td>$
+	\choice $<tr><tr></tr><td></td></tr>$
+	\choice $<tr><td></td><td></td></td>$
+\end{checkboxes}
+
+\question[\half] Per creare una lista non ordinata
+\begin{checkboxes}
+	\choice $<li><ul></ul><ul></ul></li>$
+	\choice $<ul><li></li><li></li></ul>$
+	\choice $<li><ol></ol><ol></ol></li>$
+	\choice $<ol><li></li><li></li></ol>$
+\end{checkboxes}
+
+\question[\half] Per creare una lista ordinata
+\begin{checkboxes}
+	\choice $<li><ul></ul><ul></ul></li>$
+	\choice $<ul><li></li><li></li></ul>$
+	\choice $<li><ol></ol><ol></ol></li>$
+	\choice $<ol><li></li><li></li></ol>$
+\end{checkboxes}
+
+\question[\half] I tag caratteristici di un form sono:
+\begin{checkboxes}
+	\choice text, textarea, button, img, tel, url
+	\choice text, textarea, button, a, tel, url, table
+	\choice text, selection, button, tel, url
+	\choice text, textarea, form, select, tel, url
+\end{checkboxes}
+\end{multicols}
+\bonusquestion[2] Cosa visualizza il seguente codice HTML?
+\begin{verbatim}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Titolo della scheda</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+<h1 class="w3-red w3-text-white">Sono un titolo</h1>
+<p class="w3-black w3-text-green">
+Sono un paragrafo
+</p>
+<a href="www.google.it" class="w3-text-red">Link a Google</a>
+</body>
+</html>
+\end{verbatim}
+
+\makeemptybox{2in}
+
+\end{questions}
+
+\begin{center}
+	\multirowcombinedgradetable{2}[questions]
+\end{center}
+
+\end{document}

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML 5 - AJAX</title>
+	<link rel="stylesheet" href="../css/style.css" type="text/css" /> 
+    <script>
+
+        function getXMLHttpRequest()
+        {
+            if (window.XMLHttpRequest)
+                return new XMLHttpRequest();
+            
+            // non nativo (IE<7):
+            try { return new ActiveXObject("Msxml2.XMLHTTP.6.0"); }
+            catch (e) { }
+            try { return new ActiveXObject("Msxml2.XMLHTTP.3.0"); }
+            catch (e) { }
+            try { return new ActiveXObject("Msxml2.XMLHTTP"); }
+            catch (e) { }
+            throw new Error("Il browser non supporta XMLHttpRequest");
+        }
+
+        var url = document.location;
+        var request = getXMLHttpRequest();
+        request.open("GET", url, true);
+        request.onreadystatechange = function ()
+        {
+            if (request.readyState == 4)
+            {
+                alert(request.responseText);
+            }
+        }
+        request.send(null);
+    </script>
+</head>
+<body>
+	<header>
+		<h1>Demo</h1>
+	</header> 
+	<article> 
+		<header><h1>Ajax</h1></header>
+	</article>
+ 	<footer><a href="http://www.html5italia.com/">HTML5Italia.com</a> | <a href="http://books.aspitalia.com/HTML5/">HTML5</a></footer>  
+</body>
+</html>

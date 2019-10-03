@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTML 5 - Selectors API</title>
+	<link rel="stylesheet" href="../css/style.css" type="text/css" /> 
+    <script>
+        
+        //
+        // vedi: http://www.w3.org/TR/html5/dom.html per le specifiche del DOM e http://www.w3.org/TR/selectors-api/ e http://www.w3.org/TR/css3-selectors/ per maggiori informazioni sui selettori CSS
+        //
+
+        function demoById ()
+        {
+            document.getElementById("p1").style.backgroundColor = "yellow";
+        };
+        function demoByTagName()
+        {
+            let all = document.getElementsByTagName("p");
+            for (let i = 0; i < all.length; i++)
+                highlightElement(all[i]);
+        };
+        function demoByClassName()
+        {
+            let all = document.getElementsByClassName("myClass");
+            for (let i = 0; i < all.length; i++)
+                highlightElement(all[i]);
+        };
+
+        function demoQuerySelectorById()
+        {
+            highlightElement(document.querySelector("#p1"));
+        };
+        function demoQuerySelectorByTagName()
+        {
+            highlightElement(document.querySelector("p"));
+        };
+        function demoQuerySelectorByClassName()
+        {
+            highlightElement(document.querySelector(".myClass"));
+        };
+        function demoQuerySelectorByHierarchy()
+        {
+            highlightElement(document.querySelector("ul li"));
+        };
+
+        function demoQuerySelectorAllByTagName()
+        {
+            let all = document.querySelectorAll("p");
+            for (let i = 0; i < all.length; i++)
+                highlightElement(all[i]);
+        };
+        function demoQuerySelectorAllByClassName()
+        {
+            let all = document.querySelectorAll(".myClass");
+            for (let i = 0; i < all.length; i++)
+                highlightElement(all[i]);
+        };
+        function demoQuerySelectorAllByHierarchy()
+        {
+            let all = document.querySelectorAll("ul li");            
+            for (let i = 0; i < all.length; i++)
+                highlightElement(all[i]);
+        };
+
+        function reset()
+        {
+            let all = document.querySelectorAll("body *");
+            for (let i = 0; i < all.length; i++)
+                all[i].style.backgroundColor = "";
+            
+        };
+
+        function highlightElement(o)
+        {
+            if (o != null)
+                o.style.backgroundColor = "yellow";
+        }
+
+    </script>    
+</head>
+<body>
+    
+	<header>
+		<h1>Demo</h1>
+	</header> 
+
+	<article> 
+		<header><h1>Selectors API</h1></header>
+		<hr />
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies nunc sapien, ac porttitor est.</p>
+		<p>Nullam ac leo libero, euismod facilisis nunc. Mauris eu nisl a ligula facilisis vehicula ut vehicula lorem.</p>
+		<p id="p1">Suspendisse urna eros, cursus eget bibendum in, facilisis ac diam. Duis sed velit mi, ut convallis purus. </p>
+		<ul>
+			<li>Vivamus a massa cursus mi vestibulum lobortis.</li>
+			<li>Sed sit amet nibh velit.</li>
+			<li>Vivamus pharetra consequat velit, et tincidunt lacus lacinia eget.</li>
+			<li>Vivamus pharetra consequat velit, et tincidunt lacus lacinia eget.</li>
+			<li>Vivamus pharetra consequat velit, et tincidunt lacus lacinia eget.</li>
+		</ul>
+		<p class="myClass">Donec velit eros, mattis id volutpat et, consequat feugiat nulla. Aliquam vestibulum sodales risus, a iaculis magna tincidunt eu.</p>
+		<p>Morbi neque tellus, auctor non bibendum sit amet, <span class="myClass">sodales vel ligula</span>. In mattis aliquam felis. Ut id urna mauris, nec mattis urna.</p>
+			
+		<hr />
+
+		<button onclick="demoById()">getElementById</button>
+		<button onclick="demoByTagName()">getElementsByTagName</button>
+		<button onclick="demoByClassName()">getElementsByClassName</button>
+		<br />
+		<button onclick="demoQuerySelectorById()">querySelector: ID</button>
+		<button onclick="demoQuerySelectorByTagName()">querySelector: tag</button>
+		<button onclick="demoQuerySelectorByClassName()">querySelector: class</button>
+		<button onclick="demoQuerySelectorByHierarchy()">querySelector: hierarchy</button>
+		<br />
+		<button onclick="demoQuerySelectorAllByTagName()">querySelectorAll: tag</button>
+		<button onclick="demoQuerySelectorAllByClassName()">querySelectorAll: class</button>
+		<button onclick="demoQuerySelectorAllByHierarchy()">querySelectorAll: hierarchy</button>
+		<br />
+		<button onclick="reset()">reset</button>
+	</article>
+
+	<footer><a href="http://www.html5italia.com/">HTML5Italia.com</a> | <a href="http://books.aspitalia.com/HTML5/">HTML5</a></footer>  
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <title>Untitled Page</title>
+	<style type="text/css">
+  body{ padding: 100px;}
+  div
+  {
+  	display:inline-block;
+    height: 100px; width: 100px;
+    border: solid 1px black;  
+	margin-left: 50px;
+  	transform-origin: 50% 50%;
+  	float:left;
+  }
+
+  .div1
+  {	
+  	transform: skew(20deg);
+  }
+	
+  .div2
+  {
+  	transform: skew(20deg, 10deg);
+  }
+
+  .div3
+  {
+  	transform: rotate(45deg);
+  }
+
+  .div4
+  {
+  	margin-left: 50px;
+  	transform: rotate(45deg) skew(20deg, 10deg) scale(1.5, 1.5);
+  }
+  </style>
+</head>
+<body>
+	<div>Senza skew</div>
+	<div class="div1">Con skewX</div>
+	<div class="div2">Con skewX e skewY</div>
+	<div class="div3">Con rotate</div>
+	<div class="div4">Con skew e rotate e scale</div>
+</body>
+</html>

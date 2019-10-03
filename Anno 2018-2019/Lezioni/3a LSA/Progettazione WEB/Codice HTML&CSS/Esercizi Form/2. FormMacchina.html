@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Scelta macchina
+    </title>
+</head>
+
+<body>
+    <h1>Completa il form</h1>
+    <form>
+        <label>Nome:</label>
+        <input type="text" name="Nome" value="" />
+        <br>
+        <label>Cognome:</label>
+        <input type="text" name="Cognome" value="" />
+        <br>
+        <label>Età:</label>
+        <input type="number" name="Età" value="" />
+        <br>
+        <label>Patente?</label>
+        <select name="Patente">
+            <option value="Si">SI</option>
+            <option value="No">NO</option>
+        </select>
+        <br>
+        <label>Marca preferita:</label>
+        <select name="Marca">
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Alfa Romeo">Alfa Romeo</option>
+            <option value="Peugeot">Peugeot</option>
+        </select>
+        <br>
+        <label>Colore preferito:</label>
+        <select name="Colore">
+            <option value="Grigio">Grigio</option>
+            <option value="Nero">Nero</option>
+            <option value="Blu">Blu</option>
+            <option value="Rosso">Rosso</option>
+        </select>
+        <br>
+        <label>Numero di porte</label>
+        <select name="Porte">
+            <option value="3">3</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <label>Cavalli:</label>
+        <input type="range" min="50" max="600">
+        <br>
+        <label>Optional</label>
+        <fieldset>
+            <input type="checkbox" name="Optional" value="Clima"><label>Clima</label>
+            <input type="checkbox" name="Optional" value="Navigatore"><label>Navigatore</label>
+            <input type="checkbox" name="Optional" value="Cerchi"><label>Cerchi in lega</label>
+        </fieldset>
+        <input type="submit" value="Invia">
+    </form>
+</body>
+
+</html>

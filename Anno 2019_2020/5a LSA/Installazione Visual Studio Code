@@ -1,0 +1,5 @@
+1. Installare Visual Studio Code (scaricare dal sito)
+2. Installare le estensioni di C++ e Run Code
+3. Installare da terminale g++
+	sudo apt-get install g++
+4. Fare una prova

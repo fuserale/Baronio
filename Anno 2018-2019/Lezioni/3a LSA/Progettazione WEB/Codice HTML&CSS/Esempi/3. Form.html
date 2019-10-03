@@ -1,0 +1,88 @@
+<!--https://www.w3schools.com/html/html_form_elements.asp-->
+<!DOCTYPE html>
+<html>
+
+<!-- Sezione head, contiene il titolo della schermata-->
+<head>
+	<title>Le form</title>
+</head>
+
+<!-- Sezione body, contiene tutto quello che si vedrà nell pagina-->
+<body>
+	<!-- Intestazione di tipo 1-->
+	<h1>Le form</h1>
+	<section>
+		<!-- Permettono di ricevere in input i dati dall'utente. Attributi: autocomplete, method(get/post), name-->
+		<form>
+			<label>Inserisci il tuo nome:
+				<!-- Ogni input deve avere:type, value, name-->
+				<!-- Il type text permette di inserire una breve stringa-->
+				<input type="text" value="Default" name="name" />
+			</label>
+			<!-- Il type submit permette di creare un bottone per l'invio dei dati-->
+			<input type="submit" value="Invia dati">
+		</form>
+	</section>
+	<section>
+		<form>
+			<!-- Fieldset per creare una lista di opzioni. Il valore name deve essere lo stesso per tutti gli elementi-->
+			<fieldset>
+				<legend>Le tue preferenze: </legend>
+				<!-- Il type checkbox per avere i quadrati di scelta-->
+				<p><label><input type="checkbox" value="1" name="pref"/>1</label></p>
+				<p><label><input type="checkbox" value="2" name="pref"/>2</label></p>
+				<p><label><input type="checkbox" value="3" name="pref"/>3</label></p>
+			</fieldset>
+			<fieldset>
+				<legend>La tua nazione: </legend>
+				<!-- Il type radio per avere i cerchi di scelta-->
+				<p><label><input type="radio" value="1" name="country" checked="checked" /> Italia</label></p>
+				<p><label><input type="radio" value="1" name="country "/>USA</label></p>
+				<p><label><input type="radio" value="1" name="country "/>Canada</label></p>
+			</fieldset>
+			<!-- Select per gli elenchi a discesa, quando cioè ho molte opzioni tra cui scegliere-->
+			<!-- Size regola l'altezza di visualizzazione della lista. Per la scelta multipla, usare l'attributo multiple-->
+			<select name="group" size="8">
+				<!-- Possiamo dividere le scelte in sezioni tramite optgroup-->
+				<optgroup label="Gruppo A">
+					<!-- Ogni option rappresenta un valore della lista-->
+					<option value="A.1">valore 1</option>
+					<option selected="selected" value="A.2">valore 2</option>
+					<option value="A.3">valore 3</option>
+				</optgroup>
+				<optgroup label="Gruppo B">
+					<option value="B.1">valore 1</option>
+					<option value="B.2">valore 2</option>
+					<option value="B.3">valore 3</option>
+				</optgroup>
+			</select>
+			<!-- Textarea per scrivere un paragrafo intero. Servono lunghezza massima, quante righe e colonne-->
+			<textarea name="description" maxlenght="200" cols="100" rows="5">testo</textarea>
+		</form>
+		<form>
+			<!-- Datalist specifica una lista di opzioni pre-definite per l'input di un elemento-->
+			<input list="browsers" name="browser">
+			<datalist id="browsers">
+			  <option value="Internet Explorer">
+			  <option value="Firefox">
+			  <option value="Chrome">
+			  <option value="Opera">
+			  <option value="Safari">
+			</datalist>
+			<br>
+			Numero di telefono:<input type="tel" name="Telefono" value="">
+			<br>
+			Mail:<input type="email" name="email" value="">
+			<br>
+			Url:<input type="url" name="url" value="">
+			<br>
+			Voti:<input type="number" min="1" max="10">
+			<br>
+			Voti:<input type="range" min="1" max="10">
+			<br>
+			Progress:<progress value="100" max="100"></progress>
+			<input type="submit">
+		  </form>
+	</section>
+</body>
+</html>

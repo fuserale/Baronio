@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTML 5 - Geolocation API</title>
+	<link rel="stylesheet" href="../css/style.css" type="text/css" /> 
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>    
+    <script>
+
+        //
+        // vedi: http://www.w3.org/TR/geolocation-API per le specifiche e la documentazione completa di Geolocation API
+        //
+
+        window.onload = function ()
+        {
+            if (!navigator.geolocation)
+            {
+                document.getElementById("debug").innerHTML = "<p>Il tuo browser non supporta le API per la geolocalizzazione</p>";
+                return;
+            }
+
+            navigator.geolocation.getCurrentPosition(showMap, geolocationError, { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 });
+
+        };
+
+        function geolocationError(positionError)
+        {
+            //
+            // Nota: è possibile applicare comportamente particolari in funzione del tipo di errore:
+            //            
+            switch (positionError.code)
+            {
+                case positionError.PERMISSION_DENIED:
+                    // ...
+                    break;
+                case positionError.POSITION_UNAVAILABLE:
+                    // ...
+                    break;
+                case positionError.TIMEOUT:
+                    // ...
+                    break;
+                default: 
+            }
+
+            document.getElementById("debug").innerHTML = "<p>" + positionError.message + "</p>";
+        };
+
+        function showMap(position)
+        {
+            // visualizzo tutte le informazioni disponibili sulla posizione del client:
+            document.getElementById("debug").innerHTML = 
+                "<p>" +
+				    "timestamp: " + position.timestamp + "<br>\n" +
+                    "latitude: " + position.coords.latitude + "<br>\n" +
+				    "longitude: " + position.coords.longitude + "<br>\n" +
+				    "accuracy: " + position.coords.accuracy + " metri<br>\n" +
+				    "altitude: " + position.coords.altitude + "<br>\n" +
+				    "altitudeAccuracy: " + position.coords.altitudeAccuracy + "<br>\n" +
+				    "heading: " + position.coords.heading + "<br>\n" +
+				    "speed: " + position.coords.speed +
+                "</p>"; ;
+
+            // usando Goolge Maps, creo una mappa centrata sulla posizione del client:
+            var clientLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+            var map = new google.maps.Map(document.getElementById("map"), { zoom: 12, mapTypeId: google.maps.MapTypeId.ROADMAP, center: clientLocation });
+            
+            // aggiungo un marker sulla mappa in corrispondenza della posizione del client:
+            var marker = new google.maps.Marker({ map: map, draggable: true, animation: google.maps.Animation.DROP, position: clientLocation });
+
+            // visualizzo in overlay un cerchio per indicare la precisione del punto calcolato:
+            new google.maps.Circle({ center: clientLocation, radius: position.coords.accuracy, strokeColor: "#0080FF", strokeOpacity: 0.5, strokeWeight: 1, fillColor: "#0080FF", fillOpacity: 0.2, map: map });
+
+        };
+           
+    </script>
+</head>
+<body>
+	<header>
+		<h1>Demo</h1>
+	</header> 
+	<article> 
+		<header><h1>Geolocation API</h1></header>
+		<div id="map" style="width: 500px; height: 500px; border: 1px solid #222;"></div>
+		<div id="debug"></div>    
+	</article>
+ 	<footer><a href="http://www.html5italia.com/">HTML5Italia.com</a> | <a href="http://books.aspitalia.com/HTML5/">HTML5</a></footer>  
+</body>
+</html>

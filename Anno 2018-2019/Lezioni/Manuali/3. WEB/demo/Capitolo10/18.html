@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Esempio</title>
+    <style type="text/css">
+        text
+        {
+            fill: white;
+            font-family: Tahoma;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="current"></h1>
+    <svg width="500" height="500" id="pie">
+        <defs>
+            <radialgradient id="blueg" cx="0" cy="1" r="1">
+                <stop offset="0" stop-color="black" />
+                <stop offset="1" stop-color="blue" />
+            </radialgradient>
+            <radialgradient id="redg" cx="1" cy="1" r="1">
+                <stop offset="0" stop-color="black" />
+                <stop offset="1" stop-color="red" />
+            </radialgradient>
+            <radialgradient id="yellowg" cx="1" cy="0" r="1">
+                <stop offset="0" stop-color="black" />
+                <stop offset="1" stop-color="yellow" />
+            </radialgradient>
+        </defs>
+        <g>
+            <path fill="url(#blueg)" d="M 310,402 L 213,214 L 326,35 C 454,111 468,319 310,402 z" />
+            <text x="320" y="230">Blue</text>
+        </g>
+        <g>
+            <path fill="url(#redg)" d="M 3,208 L 213,214 L 326,35 C 202,-46 8,30 3,208 z" />
+            <text x="120" y="120">Red</text>
+        </g>
+        <g>
+            <path fill="url(#yellowg)" d="M 3,208 L 213,214 L 311,400 C 177,467 3,380 3,208 z" />
+            <text x="120" y="320">Yellow</text>
+        </g>
+    </svg>
+    
+    <script type="text/ecmascript">
+        var elements = document.getElementsByTagName('g');
+
+				for (i = 0; i < elements.length; i++)
+				{
+					var element = elements[i];
+
+					element.addEventListener("mouseover", function () {
+						this.setAttribute("transform", "scale(1.1)");
+						document.getElementById("current").innerHTML = this.textContent;
+					}, false);
+
+					element.addEventListener("mouseleave", function () {
+						this.removeAttribute("transform");
+					}, false);
+				}
+    </script>
+</body>
+</html>

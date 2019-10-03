@@ -1,0 +1,42 @@
+; EclipseCrossword (1.2.62) crossword puzzle
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+Title:  HTML & CSS
+Width:  20
+Height:  20
+CodePage:  0
+Author:  Alessandro Fuser
+Copyright:  © 2019
+
+; ------------------------------------------------------------
+* Across words
+; ------------------------------------------------------------
+
+DOCTYPE:  7, 14:  Serve ad indicare la tipologia di documento
+TESTO:  8, 7:  L'attributo <w3-text-white> colora di bianco ..
+TITOLI:  7, 10:  Hanno un ordine di importanza
+UL:  8, 12:  Tag per le liste non ordinate
+SRC:  12, 2:  L'attributo obbligatorio per le immagini
+APERTURA:  1, 6:  Gli attributi del CSS vanno inseriti nel tag di
+COMMENTI:  11, 4:  Servono a spiegare il codice scritto
+OL:  4, 8:  Tag per le liste ordinate
+TITLE:  1, 11:  Può essere inserito sia come tag che come attributo
+BUTTON:  1, 2:  Serve a mandare i dati di un form
+
+; ------------------------------------------------------------
+* Down words
+; ------------------------------------------------------------
+
+ATTRIBUTO:  8, 6:  E' identificato da una coppia nome-valore
+CSS:  10, 6:  Serve ad abbellire la pagina web
+DIV:  7, 14:  Il tag che permette di separare i contenuti
+SFONDO:  12, 2:  L'attributo <w3-black> colora di nero ...
+TD:  10, 14:  Indica la creazione di una colonna di tabella
+LINK:  16, 2:  Il tag <a> serve per..
+GRASSETTO:  1, 4:  Il tag <b> permette di scrivere il testo in
+HTML:  5, 5:  Serve per scrivere il contenuto delle pagine web
+TABLE:  3, 2:  Permette di creare una tabella
+TR:  3, 11:  Indica la creazione di una riga di tabella
+HEAD:  13, 13:  E' la sezione in cui si mettono i tag che non si vedono della pagina web
+

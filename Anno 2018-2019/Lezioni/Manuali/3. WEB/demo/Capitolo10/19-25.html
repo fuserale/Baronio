@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Untitled Page</title>
+    <script type="text/ecmascript">
+        var context;
+
+        var ballx = 200, bally = 100;
+        var speed = 2;
+        var vx = 1, vy = 1;
+        var ballSize = 5;
+        var count = 0;
+        var width = 600, height = 220;
+
+        function start() {
+            context = canvas.getContext("2d");
+            // Ciclo del gioco
+            setInterval(function () { update(); draw(); }, 1000 / 60);
+        }
+
+        function update() {
+            // Rimbalza in alto o in basso
+            if (bally > height - ballSize || bally < ballSize) {
+                vy = vy * -1;
+                count++;
+            }
+            // Rimbalza a sinistra o a destra
+            if (ballx > width - ballSize || ballx < ballSize) {
+                vx = vx * -1;
+                count++;
+            }
+
+            // Sposto la palla
+            ballx = ballx + (vx * speed);
+            bally = bally + (vy * speed);
+        }
+
+        function draw() {
+            // Cancello la superficie
+            //context.clearRect(0, 0, width, height);
+
+            // Disegno lo sfondo
+            context.drawImage(background, 0, 0);
+
+            // Disegno la palla
+            drawBall();
+
+            // Scrivo il testo
+            drawText();
+        }
+
+        function drawText() {
+            context.save();
+
+            context.fillStyle = "black";
+            context.textAlign = "right";
+            context.textBaseline = "top";
+            context.font = "bold 12px Tahoma";
+            context.fillText("Boing: " + count, 590, 10);
+
+            context.restore();
+        }
+
+        function drawBall() {
+            context.save();
+
+            // Traccio la palla
+            context.beginPath();
+            context.arc(ballx, bally, ballSize * 2, 0, Math.PI * 2, true);
+
+            // Creo il gradiente della palla
+            var radial = context.createRadialGradient(ballx, bally, 2, ballx, bally, 10);
+            radial.addColorStop(0, "#F06707");
+            radial.addColorStop(1, "#E34F12");
+
+            // Coloro la palla
+            context.fillStyle = radial;
+            context.fill();
+
+            // Disegno il contorno della palla
+            context.strokeStyle = "black";
+            context.stroke();
+
+            context.restore();
+        }
+    </script>
+</head>
+<body onload="start()">
+    <img src="canvas.jpg" id="background" style="display: none" />
+    <canvas id="canvas" width="600" height="220">
+    </canvas>
+</body>
+</html>

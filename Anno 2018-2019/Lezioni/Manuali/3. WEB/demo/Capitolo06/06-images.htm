@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html><html>
+<head>
+	<title>HTML5</title>
+	<link rel="stylesheet" href="../css/style.css" type="text/css" /> 
+    <style>
+    .demo{
+			border:1px solid red;
+			display:inline-block;
+    }
+		.normal {
+			width: 300px;
+			object-fit: none;
+			object-position: 50% 50%; /* default: immagine al centro*/
+		}
+		.zoom {
+			width: 300px;
+			object-fit: cover;
+			object-position: 0 0; /* in alto a sinistra */
+		}
+    </style>
+</head>
+<body>
+	<header>
+		<h1>Demo</h1>
+	</header> 
+
+	<article> 
+		<header><h1>Dimensionamento delle immagini</h1></header>
+
+    <div class="demo"><img src="img/airplane.png" class="normal" /></div>
+    <div class="demo"><img src="img/airplane.png" class="zoom" /></div>
+	</article>
+
+	<footer><a href="http://www.html5italia.com/">HTML5Italia.com</a> | <a href="http://books.aspitalia.com/HTML5/">HTML5</a></footer>  
+
+</body> 
+</html>

@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>HTML5</title>
+		<link rel="stylesheet" href="../css/style.css" type="text/css" /> 
+		<script type="text/javascript">
+			function change(){
+				let inputs = document.querySelectorAll("input[type='text'], input[type='password']");
+				let button = document.querySelector("input[type='submit']");
+				button.disabled = "";
+				for (let i=0; i<inputs.length; i++){
+					if (inputs[i].value == ""){
+						button.disabled = "disabled";
+						break;
+					}
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form action="">
+			<header>
+				<h1>Demo</h1>
+			</header>	
+			<article> 
+				<header><h1>WebSocket</h1></header>
+				<div>
+					<span>Username</span>
+					<input type="text" onchange="change()"/>
+				</div>
+				<div>
+					<span>Password</span>
+					<input type="password" onchange="change()"/>
+				</div>
+				<div>
+					<input type="submit" value="Login" disabled="disabled"/>
+				</div>
+			</article>
+			<footer><a href="http://www.html5italia.com/">HTML5Italia.com</a> | <a href="http://books.aspitalia.com/HTML5/">HTML5</a></footer>  
+		</form>
+	</body>
+</html>

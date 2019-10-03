@@ -1,0 +1,28 @@
+; EclipseCrossword word list
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+TELEMATICA:  Si occupa dell'elaborazione a distanza delle informazioni
+SERVER:  Offrono servizi e risorse
+CLIENT:  Richiedono un servizio e utilizzano le risorse
+DTE:  Insieme di terminale e riorse collegate in rete
+DCE:  Punto di collegamento tra linea di trasmissione e terminale
+STELLA:  Tipologia di rete con un nodo al centro
+ANELLO:  Tipologia di rete in cui ho un collegamento unidirezionale e passaggio di token
+BUS:  Tipologia di rete con un unico cavo di comunicazione
+MAGLIA:  Tipologia di rete che può variare da una realizzazione all'altra
+WAN:  Rete molto grande
+LAN:  Rete abbastanza piccola
+NETECONOMY:  Economia basata sull'utilizzo di Internet
+BUSINESSTOBUSINESS:  Tipologia di ecommerce tra aziende
+BUSINESSTOCONSUMER:  Tipologia di ecommerce tra azienda e privato
+EGOVERNMENT:  Servizi prestati dalle pubblice amministrazione ai cittadini attraverso Internet
+LEARNINGOBJECT:  Elemento modulare composto da testo, grafica, esercizi e valutazione nell'elearning
+CLOUDCOMPUTING:  Insieme di hardware e software distribuiti sulla rete a disposizione del cliente
+INTEGRITA:  Protezione da modifiche non autorizzate
+RISERVATEZZA:  Protezione da letture non autorizzate
+SNIFFING:  Strumento che permette di ascoltare le comunicazioni tra due terminali
+SPOOFING:  Strumento che permette di falsificare l'identità di un terminale
+MALWARE:  Strumento che permette di inserire dei codici malevoli in un terminale
+BACKUP:  Strumento di sicurezza che permette di salvare i propri dati
+FIREWALL:  Strumento di sicurezza che equivale ad un muro informatico

@@ -1,0 +1,10 @@
+1. Nel 1968 da Federico Faggin
+2. P101, P102 e P203
+3. OS/400 --> i5/OS --> IBM i
+4. Bergamo
+5. 2003: 750 milioni --> 2008: 1,5 miliardi --> 2011: 2,25 miliardi --> 2014:3 miliardi
+6. HPC4 ed è a Ferrera Erbognone, vicino a Milano
+7. ALIWEB
+8. Google (83%), Yahoo (6,42%), Baidu (4,89%), Bing (3,91%)
+9. 3,3 miliardi
+10. 200 petaFLOPS (200 miliardi di miliardi di operazioni al secondo) con prestazioni di picco di 3,3 exaFLOPS

@@ -1,0 +1,62 @@
+<html>
+<head>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+	<div id="binding" style="border: 1px solid black">
+	  <span>{{ message }}</span>
+	</div>
+
+	<div id="binding2" style="border: 1px solid black">
+		<input type="text" v-model="name" />
+		{{name}}
+	</div>
+
+	<div id="binding3">
+	  <input type="checkbox" v-model="selected" />check
+	  <button v-bind:disabled="selected">button</button>
+	  <div v-bind:class="{ 'd-none': !selected }">Contenuto div</div>
+	</div>
+	
+	<div id="binding4">
+		<ul>
+		  <li v-for="item in people">
+			{{ item.firstName }} {{ item.lastName }}
+		  </li>
+		</ul>
+	</div>
+	<script>
+		const app = new Vue({
+		  el: '#binding',
+		  data: {
+			message: 'messaggio via binding'
+		  }
+		});
+
+		const app2 = new Vue({
+		  el: '#binding2',
+		  data: {
+			name: 'Stefano Mostarda'
+		  }
+		});
+
+		const app3 = new Vue({
+		  el: '#binding3',
+		  data: {
+			selected: false
+		  }
+		});
+		
+		const app4 = new Vue({
+		  el: '#binding4',
+		  data: {
+			people: [
+			  { firstName: 'Stefano', lastName: 'Mostarda' },
+			  { firstName: 'Daniele', lastName: 'Bochicchio' }
+			]
+		  }
+		});
+	</script>
+</body>
+</html>

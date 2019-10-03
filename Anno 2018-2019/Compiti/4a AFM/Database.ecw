@@ -1,0 +1,44 @@
+; EclipseCrossword (1.2.62) crossword puzzle
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+Title:  Database
+Width:  50
+Height:  50
+CodePage:  0
+Author:  Alessandro Fuser
+Copyright:  © 2019
+
+; ------------------------------------------------------------
+* Across words
+; ------------------------------------------------------------
+
+DATO:  24, 24:  Descrizione elementare di una cosa
+VISTA:  25, 22:  Astrazione di una parte di database concettuale
+CONCETTUALE:  24, 26:  Primo passo di progettazione di una base di dati
+RISORSA:  20, 28:  Tutto ciò con cui l'azienda opera
+INTEGRO:  20, 34:  Proprietà di un database che permette la non perdita di consistenza
+DCL:  21, 25:  Permette operazioni relative al controllo degli accessi degli utenti
+PROCESSO:  16, 30:  Insieme delle attività da svolgere per gestire l'azienda
+LOGICA:  26, 20:  Secondo passo di progettazione di una base di dati
+DATABASE:  15, 32:  Raccolta di dati logicamente correlata
+CATEGORIA:  32, 23:  Gruppo di dati aventi la stessa chiave di interpretazione
+SCHEMA:  29, 30:  Chiave di interpretazione dei dati
+DBMS:  17, 23:  Insieme di strumenti software in grado di gestire dati strutturati
+DML:  13, 34:  Consente di interrogare il database o di modificarne i dati
+INFORMATIVO:  21, 18:  Sistema che si occupa della gestione delle informazioni rilevanti per un'organizzazione
+INFORMATICO:  25, 41:  Sistema che comprende gli strumenti utilizzati per il trattamento automatico delle informazioni
+
+; ------------------------------------------------------------
+* Down words
+; ------------------------------------------------------------
+
+ISTANZA:  26, 22:  Insieme dei valori assunti in uno schema in un certo istante di tempo
+CONSISTENTE:  22, 25:  Proprietà di un database la qualke indica che i dati sono significativi ed utilizzabili
+FISICA:  29, 17:  Ultimo passo di progettazione di una base di dati
+SCALABILE:  32, 22:  Proprietà di un database che permette di mantenere le performance all'aumentare dei dati
+INFORMAZIONI:  25, 30:  Si possono aggiungere, eleminare, modificare o leggere
+OBIETTIVO:  18, 22:  Può essere a breve o a lungo termine
+SICURO:  38, 19:  Proprietà di un database che evita danneggiamenti
+DDL:  15, 32:  Descrive le caratteristiche delle categorie di dati
+

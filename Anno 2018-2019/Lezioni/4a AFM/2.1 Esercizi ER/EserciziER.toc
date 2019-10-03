@@ -1,0 +1,52 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Problemi}{3}% 
+\contentsline {subsection}{\numberline {1.1}Universit\IeC {\`a}}{3}% 
+\contentsline {subsection}{\numberline {1.2}Analisi dei consumi}{3}% 
+\contentsline {subsection}{\numberline {1.3}Pratiche degli impiegati}{3}% 
+\contentsline {subsection}{\numberline {1.4}Societ\IeC {\`a} polisportiva}{4}% 
+\contentsline {subsection}{\numberline {1.5}Negozi}{4}% 
+\contentsline {subsection}{\numberline {1.6}Noleggio DVD}{4}% 
+\contentsline {subsection}{\numberline {1.7}Opere d'arte}{5}% 
+\contentsline {subsection}{\numberline {1.8}Ospedale}{5}% 
+\contentsline {section}{\numberline {2}Soluzioni}{6}% 
+\contentsline {subsection}{\numberline {2.1}Universit\IeC {\`a}}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Modello ER}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Regole di lettura}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.3}Schema Logico}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.4}SQL}{6}% 
+\contentsline {subsection}{\numberline {2.2}Analisi dei consumi}{7}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Modello ER}{7}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Regole di lettura}{7}% 
+\contentsline {subsubsection}{\numberline {2.2.3}Schema Logico}{7}% 
+\contentsline {subsubsection}{\numberline {2.2.4}SQL}{7}% 
+\contentsline {subsection}{\numberline {2.3}Pratiche degli impiegati}{8}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Modello ER}{8}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Regole di lettura}{8}% 
+\contentsline {subsubsection}{\numberline {2.3.3}Schema Logico}{8}% 
+\contentsline {subsubsection}{\numberline {2.3.4}SQL}{8}% 
+\contentsline {subsection}{\numberline {2.4}Societ\IeC {\`a} polisportiva}{9}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Modello ER}{9}% 
+\contentsline {subsubsection}{\numberline {2.4.2}Regole di lettura}{9}% 
+\contentsline {subsubsection}{\numberline {2.4.3}Schema Logico}{9}% 
+\contentsline {subsubsection}{\numberline {2.4.4}SQL}{9}% 
+\contentsline {subsection}{\numberline {2.5}Negozi}{10}% 
+\contentsline {subsubsection}{\numberline {2.5.1}Modello ER}{10}% 
+\contentsline {subsubsection}{\numberline {2.5.2}Regole di lettura}{10}% 
+\contentsline {subsubsection}{\numberline {2.5.3}Schema Logico}{10}% 
+\contentsline {subsubsection}{\numberline {2.5.4}SQL}{10}% 
+\contentsline {subsection}{\numberline {2.6}Noleggio DVD}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.1}Modello ER}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.2}Regole di lettura}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.3}Schema Logico}{11}% 
+\contentsline {subsubsection}{\numberline {2.6.4}SQL}{11}% 
+\contentsline {subsection}{\numberline {2.7}Opere d'arte}{12}% 
+\contentsline {subsubsection}{\numberline {2.7.1}Modello ER}{12}% 
+\contentsline {subsubsection}{\numberline {2.7.2}Regole di lettura}{12}% 
+\contentsline {subsubsection}{\numberline {2.7.3}Schema Logico}{12}% 
+\contentsline {subsubsection}{\numberline {2.7.4}SQL}{12}% 
+\contentsline {subsection}{\numberline {2.8}Ospedale}{13}% 
+\contentsline {subsubsection}{\numberline {2.8.1}Modello ER}{13}% 
+\contentsline {subsubsection}{\numberline {2.8.2}Regole di lettura}{13}% 
+\contentsline {subsubsection}{\numberline {2.8.3}Schema Logico}{13}% 
+\contentsline {subsubsection}{\numberline {2.8.4}SQL}{13}% 

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5</title>
+	<link rel="stylesheet" href="../css/style.css" type="text/css" /> 
+    <script>
+		var output;
+		var websocket;
+		function onLoad()
+		{
+			output = document.getElementById("output");
+			websocket = new WebSocket("ws://echo.websocket.org/");
+			websocket.onopen = function(evt) {
+				write("CONNECTED");
+			};
+
+			websocket.onclose = function(evt) {
+				write("DISCONNECTED");
+			};
+
+			websocket.onmessage = function(evt) {
+				write("RESPONSE: " + evt.data);
+			};
+
+			websocket.onerror = function(evt) {
+				write("ERROR: " + evt.data);
+			};
+		}
+
+		function doSend(message)
+		{
+			write("SENT: " + message);
+			websocket.send(message);
+		}
+		function doClose(){
+			websocket.close();
+		}
+		function write(message)
+		{
+			output.value += message + "\r\n";
+		}
+		window.addEventListener("load", onLoad);
+    </script>    
+</head>
+<body>
+	<header>
+		<h1>Demo</h1>
+	</header> 
+	<article> 
+		<header><h1>WebSocket</h1></header>
+		<input id="text"/>
+		<button onclick="doSend(document.getElementById('text').value)">invia</button>
+	   <textarea id="output" style="width:100%" rows="20"></textarea>
+	</article>
+ 	<footer><a href="http://www.html5italia.com/">HTML5Italia.com</a> | <a href="http://books.aspitalia.com/HTML5/">HTML5</a></footer>  
+   
+</body>
+</html>
