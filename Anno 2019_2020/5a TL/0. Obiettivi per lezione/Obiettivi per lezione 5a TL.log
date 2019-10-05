@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.2)  3 OCT 2019 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.2)  5 OCT 2019 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -487,7 +487,7 @@ a TL.aux) )
 Here is how much of TeX's memory you used:
  1163 strings out of 492982
  14591 string characters out of 6134896
- 83641 words of memory out of 5000000
+ 84641 words of memory out of 5000000
  4771 multiletter control sequences out of 15000+600000
  4247 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -496,7 +496,7 @@ Here is how much of TeX's memory you used:
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Obiettivi per lezione 5a TL.pdf" (1 page, 53868 bytes).
+Output written on "Obiettivi per lezione 5a TL.pdf" (1 page, 54978 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
