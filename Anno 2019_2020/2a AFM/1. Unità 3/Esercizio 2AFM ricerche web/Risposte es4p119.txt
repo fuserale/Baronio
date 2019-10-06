@@ -8,3 +8,25 @@
 8. Google (83%), Yahoo (6,42%), Baidu (4,89%), Bing (3,91%)
 9. 3,3 miliardi
 10. 200 petaFLOPS (200 miliardi di miliardi di operazioni al secondo) con prestazioni di picco di 3,3 exaFLOPS
+
+
+Ordine di consegna:
+Filippo Cazzola
+Edoardo Teso
+Francesco Ritzittu
+Manoel Dal Corno
+Sara Santi
+
+Sara Santi - 8/10
+Manoel Dal Corno - 3/10
+Francesco Ritzittu - 5/10
+Filippo Cazzola - 4/10
+Edoardo Teso - 7/10
+
+Valutazioni:
+Filippo Cazzola --> 5/10 (ha usato il copia-incolla, la risposta deve essere coincisa)
+Edoardo Teso --> 6,5/10 (ha usato il copia-incolla, ma con risposte corte e precise)
+Francesco Ritzittu --> 6/10
+Manoel Dal Corno --> 2/10 (risposte sbagliate, poco interesse e copia-incolla massiccio)
+Sara Santi --> 6,5/10 (ci ha messo più tempo, ma le risposte sono immediate nella lettura, a parte l'ordine)
+
