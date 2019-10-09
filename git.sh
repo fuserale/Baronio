@@ -1,3 +1,3 @@
-git add * && git commit -m "Aggiunta a caso" && git push origin master && ./credenziali.sh
+git add * && git commit -m "Aggiunta a caso" && ./credenziali.sh && git push origin master
 
 
