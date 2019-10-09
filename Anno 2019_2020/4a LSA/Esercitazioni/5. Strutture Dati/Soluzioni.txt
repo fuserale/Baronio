@@ -1,0 +1,444 @@
+/*
+  Esercizio 1
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int dim;
+	cout<<"Dimmi la dimensione del vettore: ";
+	cin>>dim;
+	//creo il vettore di dimensione dim
+	int array[dim];
+	//inserisco i valori nel vettore
+	for(int i=0;i<dim;i++){
+		cout<<"Scrivi un numero intero: ";
+		cin>>array[i];
+	}
+	//faccio la somma dei valori del vettore
+	int somma=0;
+	for(int i=0;i<dim;i++){
+		somma = somma + array[i];
+	}
+	//stampo la somma
+	cout<<"La somma risulta: "<<somma<<endl;
+}
+
+/*
+  Esercizio 2
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int dim;
+	cout<<"Dimmi la dimensione del vettore: ";
+	cin>>dim;
+	//creo il vettore di dimensione dim
+	int array[dim];
+	//inserisco i valori nel vettore
+	for(int i=0;i<dim;i++){
+		cout<<"Scrivi un numero intero: ";
+		cin>>array[i];
+	}
+	//azzero il primo elemento del vettore
+	array[0]=0;
+	//stampo i valori del vettore
+	for(int i=0;i<dim;i++){
+		cout<<array[i]<<" ";
+	}
+}
+
+/*
+  Esercizio 3
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int dim;
+	cout<<"Dimmi la dimensione del vettore: ";
+	cin>>dim;
+	//creo il vettore di dimensione dim
+	int array[dim];
+	//inserisco i valori nel vettore
+	for(int i=0;i<dim;i++){
+		cout<<"Scrivi un numero intero: ";
+		cin>>array[i];
+	}
+	//azzero il primo elemento del vettore
+	array[dim-1]=0;
+	//stampo i valori del vettore
+	for(int i=0;i<dim;i++){
+		cout<<array[i]<<" ";
+	}
+}
+
+/*
+  Esercizio 4
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int dim;
+	cout<<"Dimmi la dimensione del vettore: ";
+	cin>>dim;
+	//creo il vettore di dimensione dim
+	int array[dim];
+	//inserisco i valori nel vettore
+	for(int i=0;i<dim;i++){
+		cout<<"Scrivi un numero intero: ";
+		cin>>array[i];
+	}
+	//azzero il primo elemento del vettore
+	int posizione;
+	cout<<"Dimmi la posizione da azzerare: ";
+	cin>>posizione;
+	array[posizione]=0;
+	//stampo i valori del vettore
+	for(int i=0;i<dim;i++){
+		cout<<array[i]<<" ";
+	}
+}
+
+/*
+  Esercizio 5
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int dim;
+	cout<<"Dimmi la dimensione del vettore: ";
+	cin>>dim;
+	//creo il vettore di dimensione dim
+	int array[dim];
+	//inserisco i valori nel vettore
+	for(int i=0;i<dim;i++){
+		cout<<"Scrivi un numero intero: ";
+		cin>>array[i];
+	}
+	//faccio la somma dei valori del vettore
+	double somma=0;
+	for(int i=0;i<dim;i++){
+		somma = somma + array[i];
+	}
+	//stampo la media
+	double media=somma/dim;
+	cout<<"La media risulta: "<<media<<endl;
+}
+
+/*
+  Esercizio 6
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int dim;
+	cout<<"Dimmi la dimensione del vettore: ";
+	cin>>dim;
+	//creo il vettore di dimensione dim
+	int array[dim];
+	//inserisco i valori nel vettore
+	for(int i=0;i<dim;i++){
+		cout<<"Scrivi un numero intero: ";
+		cin>>array[i];
+	}
+	//faccio la somma dei valori del vettore
+	double somma=0;
+	for(int i=0;i<dim;i++){
+		somma = somma + array[i];
+	}
+	//calcolo la media
+	double media=somma/dim;
+	int conta=0;
+	for(int i=0;i<dim;i++){
+		if(array[i]>media){
+			conta++;
+		}
+	}
+	//stampo quanti valori sono maggiori della media
+	cout<<"I numero maggiori della media sono: "<<conta<<endl;
+}
+
+/*
+  Esercizio 7
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int dim;
+	cout<<"Dimmi la dimensione del vettore: ";
+	cin>>dim;
+	//creo il vettore di dimensione dim
+	int array[dim];
+	//inserisco i valori nel vettore
+	for(int i=0;i<dim;i++){
+		cout<<"Scrivi un numero intero: ";
+		cin>>array[i];
+	}
+	//faccio la somma dei valori del vettore
+	double somma=0;
+	for(int i=0;i<dim;i++){
+		somma = somma + array[i];
+	}
+	//calcolo la media
+	double media=somma/dim;
+	int conta=0;
+	for(int i=0;i<dim;i++){
+		if(array[i]<media){
+			conta++;
+		}
+	}
+	//creo il nuovo vettore
+	int array2[conta];
+	//riempio il vettore
+	int posizione = 0;
+	for(int i=0;i<dim;i++){
+		if(array[i]<media){
+			array2[posizione]=array[i];
+			posizione++;
+		}
+	}
+	//stampo il nuovo vettore
+	for(int i=0;i<conta;i++){
+		cout<<array2[i]<<" ";
+	}
+}
+
+/*
+  Esercizio 8
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int dim;
+	cout<<"Dimmi la dimensione del vettore: ";
+	cin>>dim;
+	//creo il vettore di dimensione dim
+	int array[dim];
+	//inserisco i valori nel vettore
+	for(int i=0;i<dim;i++){
+		cout<<"Scrivi un numero intero: ";
+		cin>>array[i];
+	}
+	//stampo il vettore di indici pari
+	cout<<"Vettore: ";
+	for(int i=0;i<dim;i+=2){
+		cout<<array[i]<<" ";
+	}
+
+}
+
+/*
+  Esercizio 9
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int dim;
+	cout<<"Dimmi la dimensione del vettore: ";
+	cin>>dim;
+	//creo il vettore di dimensione dim
+	int array[dim];
+	//inserisco i valori nel vettore
+	for(int i=0;i<dim;i++){
+		cout<<"Scrivi un numero intero: ";
+		cin>>array[i];
+	}
+	//creo il nuovo vettore
+	int array2[dim+1];
+	//copio il vecchio vettore nel nuovo
+	for(int i=0;i<dim;i++){
+		array2[i]=array[i];
+	}
+	cout<<"Dammi un nuovo numero: ";
+	cin>>array2[dim];
+	//stampo il vecchio vettore
+	cout<<"Vecchio vettore: ";
+	for(int i=0;i<dim;i++){
+		cout<<array[i]<<" ";
+	}
+	cout<<endl;
+	//stampo il nuovo vettore
+	cout<<"Nuovo vettore: ";
+	for(int i=0;i<dim+1;i++){
+		cout<<array2[i]<<" ";
+	}
+}
+
+/*
+  Esercizio 10
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int dim;
+	cout<<"Dimmi la dimensione del vettore: ";
+	cin>>dim;
+	//creo il vettore di dimensione dim
+	int array[dim];
+	//inserisco i valori nel vettore
+	for(int i=0;i<dim;i++){
+		cout<<"Scrivi un numero intero: ";
+		cin>>array[i];
+	}
+	//azzero il primo elemento del vettore
+	array[dim-1]=0;
+	//stampo i valori del vettore
+	for(int i=0;i<dim;i++){
+		cout<<array[i]<<" ";
+	}
+}
+
+/*
+  Matrici al completo
+*/
+
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+
+using namespace std;
+
+int dim;
+int mat[100][100];
+
+void caricaMatrice(){
+	srand(time(0));
+	cout<<"Dammi la dimensione della matrice"<<endl;
+	cin>>dim;
+	for(int i=0;i<dim;i++){
+		for(int j=0;j<dim;j++){
+			mat[i][j] = rand() % 100;
+		}
+	}
+}
+
+void visualizzaMatrice(){
+	for(int i=0;i<dim;i++){
+		for(int j=0;j<dim;j++){
+			cout<<mat[i][j]<<"\t";
+		}
+		cout<<endl;
+	}
+}
+
+void diagonale(){
+	for(int i=0;i<dim;i++){
+		for(int j=0;j<dim;j++){
+			if(i==j){
+				cout<<mat[i][j]<<"\t";
+			} else {
+				cout<<"*"<<"\t";
+			}
+		}
+		cout<<endl;
+	}
+}
+
+void antiDiagonale(){
+	for(int i=0;i<dim;i++){
+		for(int j=0;j<dim;j++){
+			if(i+j==dim-1){
+				cout<<mat[i][j]<<"\t";
+			} else {
+				cout<<"*"<<"\t";
+			}
+		}
+		cout<<endl;
+	}
+}
+
+void stampaRiga(){
+	int riga;
+	cout<<"Che riga vuoi stampare?"<<endl;
+	cin>>riga;
+	for(int i=0;i<dim;i++){
+		cout<<mat[riga][i]<<"\t";
+	}
+	cout<<endl;
+}
+
+void stampaColonna(){
+	int colonna;
+	cout<<"Che colonna vuoi stampare?"<<endl;
+	cin>>colonna;
+	for(int i=0;i<dim;i++){
+		cout<<mat[i][colonna]<<"\t";
+	}
+	cout<<endl;
+}
+
+void fine(){
+	cout<<"Hai finito!"<<endl;
+}
+
+int main(){
+	int scelta;
+	cout<<"Menu' di scelta"<<endl<<endl;
+	do{
+		cout<<"1. Riempi Matrice"<<endl;
+		cout<<"2. Visualizza Matrice"<<endl;
+		cout<<"3. Visualizza diagonale"<<endl;
+		cout<<"4. Visualizza anti-diagonale"<<endl;
+		cout<<"5. Visualizza una riga"<<endl;
+		cout<<"6. Visualizza una colonna"<<endl;
+		cout<<"7. Esci"<<endl;
+
+		cin>>scelta;
+
+		//per ogni caso, chiama la funzione corrispondente
+		switch(scelta){
+			case 1: caricaMatrice();
+			break;
+
+			case 2: visualizzaMatrice();
+			break;
+
+			case 3: diagonale();
+			break;
+
+			case 4: antiDiagonale();
+			break;
+
+			case 5: stampaRiga();
+			break;
+
+			case 6: stampaColonna();
+			break;
+
+			case 7: fine();
+			break;
+
+			default:
+			cout<<"Hai sbagliato numero, ritenta!"<<endl;
+		}
+	} while(scelta != 7);
+}
