@@ -9,7 +9,7 @@ int main(){
     cin>>numeroIntero;
     cout<<"Hai inserito: "<<numeroIntero<<endl;
 
-    //creao una variabile double e faccio in modo che l'utente le assegni un valore (mi raccomando usare il punto come separatore)
+    //creo una variabile double e faccio in modo che l'utente le assegni un valore (mi raccomando usare il punto come separatore)
     double numeroDouble;
     cout<<"Dammi un numero con la virgola"<<endl;
     cin>>numeroDouble;
@@ -31,6 +31,9 @@ int main(){
     //vedete che non vi dà la parte decimale, ossia con la virgola. Per fare questo bisogna fare un cast da intero a double
     divisione = (double) numeroIntero/numeroIntero2;
     cout<<"Il risultato della divisione è: "<<divisione<<endl;
+
+    //per fare il cast, mi basta usare questa sintassi:
+    // nome_var = (tipo) nome_var_da_trasformare;
 
     //per creare una variabile costante, uso la keyword const, in modo che poi quel valore non potrà essere modificato
     const double pigreco = 3.14;

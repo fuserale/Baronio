@@ -10,8 +10,9 @@ int main(){
     cin>>numero1;
     cout<<"Dammi un altro numero"<<endl;
     cin>>numero2;
+    
 
-    //ora voglio stampare schi è maggiore dei due, come faccio? Uso il costrutto IF, dove nella parentesi tonda dovrò scrivere il confronto della condizione, e nelle parentesi graffe scrivo quello che devo fare se la condizione di verifica; else invece funziona solo se la condizione è falsa
+    //ora voglio stampare chi è maggiore dei due, come faccio? Uso il costrutto IF, dove nella parentesi tonda dovrò scrivere il confronto della condizione, e nelle parentesi graffe scrivo quello che devo fare se la condizione di verifica; else invece funziona solo se la condizione è falsa
     if (numero1>numero2)
     {
         cout<<"Il numero maggiore è il primo"<<endl;
