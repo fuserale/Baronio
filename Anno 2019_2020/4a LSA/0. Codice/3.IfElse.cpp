@@ -37,6 +37,16 @@ int main(){
         cout<<"bugiardo"<<endl;
     }
 
+    if(numero1>5){
+        if(numero2>5){
+            cout<<"Maggiori"<<endl;
+        } else {
+            cout<<"Bugiardo"<<endl;
+        }
+    } else{
+        cout<<"Bugiardo"<<endl;
+    }
+
     //usando l'algebra booleana posso combinare più condizioni assieme: && mi indica che entrambe le condizioni devono essere vere, || indica che mi basta che una delle due sia vera
 
     if(numero1>5 || numero2>5){
@@ -44,6 +54,8 @@ int main(){
     } else{
         cout<<"nessuno è maggiore"<<endl;
     }
+
+    
     
     //posso fare anche degli if annidati, ossia controllare una condizione dopo che ne ho controllato un'altra, come nel caso in cui io voglia confrontare tra solo tre numeri per determinare quale sia il più piccolo
     int numero3;
